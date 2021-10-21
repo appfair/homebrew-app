@@ -6,5 +6,5 @@ cask "cloud-cuckoo" do
   depends_on cask: "app-fair"
   version "0.8.81"
   url "https://github.com/Cloud-Cuckoo/App/releases/download/#{version}/Cloud-Cuckoo-macOS.zip"
-  sha256 "fcaa781c521cf7e4d67ffaa92d718cf182db3accad6930e64eae1d2740982dc5"
+  sha256 "2f833e270826ac40b9d40416d002238767b9bbf9d598c1aa2558af318b4cb9f1"
 end
