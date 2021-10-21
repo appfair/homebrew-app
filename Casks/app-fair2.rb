@@ -1,4 +1,4 @@
-cask "App-Fair" do
+cask "app-fair2" do
   name "App Fair"
   desc "The App Fair Catalog Browser"
   homepage "https://appfair.net/"
