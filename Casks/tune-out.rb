@@ -5,5 +5,5 @@ cask "tune-out" do
   app "App Fair/Tune Out.app"
   version "0.8.258"
   url "https://github.com/Tune-Out/App/releases/download/#{version}/Tune-Out-macOS.zip"
-  sha256 "37d8def975b7bdfc5760ec321b26430c7487a6dd916c50ac4e003e337e2ad3b8"
+  sha256 "fcaa781c521cf7e4d67ffaa92d718cf182db3accad6930e64eae1d2740982dc5"
 end
