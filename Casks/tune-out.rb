@@ -1,6 +1,6 @@
 cask "tune-out" do
   name "Tune Out"
-  desc "The Tune Out app"
+  desc "Tune Out"
   homepage "https://github.com/Tune-Out/App/"
   app "Tune Out.app", target: "App Fair/Tune Out.app"
   depends_on macos: ">= :monterey"
