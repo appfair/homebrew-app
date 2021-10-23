@@ -4,7 +4,7 @@ cask "app-fair" do
   homepage "https://github.com/App-Fair/App/"
   app "App Fair.app", target: "App Fair.app"
   depends_on macos: ">= :monterey"
-  version "0.6.115"
+  version "0.6.116"
   url "https://github.com/App-Fair/App/releases/download/#{version}/App-Fair-macOS.zip"
-  sha256 "35b735669b23a78082584ba6e3b32fde6ec4ee394bf4bf39a6d9e47fde725e88"
+  sha256 "4d2c30323b21034805c5c8398370588584eb4359a3101f3214263006154fd577"
 end
