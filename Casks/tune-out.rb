@@ -4,7 +4,7 @@ cask "tune-out" do
   homepage "https://github.com/Tune-Out/App/"
   app "Tune Out.app", target: "App Fair/Tune Out.app"
   depends_on macos: ">= :monterey"
-  version "0.8.260"
+  version "0.8.262"
   url "https://github.com/Tune-Out/App/releases/download/#{version}/Tune-Out-macOS.zip"
-  sha256 "b71d1ea64f6fc64afc732d376fb8e713915679d0d19b0cc41bbd04033b24e3a0"
+  sha256 "3694f637a25e277a73f0ff1ab797323412869aaf1050066227b7e01875ed5ee2"
 end
