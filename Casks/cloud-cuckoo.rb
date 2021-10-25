@@ -4,7 +4,7 @@ cask "cloud-cuckoo" do
   homepage "https://github.com/Cloud-Cuckoo/App/"
   app "Cloud Cuckoo.app", target: "App Fair/Cloud Cuckoo.app"
   depends_on macos: ">= :monterey"
-  version "0.8.83"
+  version "0.8.85"
   url "https://github.com/Cloud-Cuckoo/App/releases/download/#{version}/Cloud-Cuckoo-macOS.zip"
-  sha256 "ee1cdec90ca3f4e3f68adfe4888041c367aad1b57c79b150d90e3634556ddd40"
+  sha256 "64306d58d04e35b740ec931bd2ba7bc58f5489f51a5aa00243fae8f71c3f9eb7"
 end
