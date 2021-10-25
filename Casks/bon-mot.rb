@@ -4,7 +4,7 @@ cask "bon-mot" do
   homepage "https://github.com/Bon-Mot/App/"
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
   depends_on macos: ">= :monterey"
-  version "0.0.17"
+  version "0.0.18"
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip"
-  sha256 "282759d92f2c21ec6f6c2e549e16286c4bd9a1b668981c20a170378306ee52e2"
+  sha256 "9e39a29e0643b1591fecbd6d8f124890f6b88a468b3bbbe2d816addb9ac2f6e6"
 end
