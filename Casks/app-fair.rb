@@ -7,7 +7,8 @@ cask "app-fair" do
   homepage "https://github.com/App-Fair/App/"
   app "App Fair.app", target: "App Fair.app"
   depends_on macos: ">= :monterey"
+  depends_on cask: "app-fair"
   postflight do
-    system "xattr", "-d", "com.apple.quarantine", "#{appdir}/App Fair.app"
+    system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair.app"
   end
 end

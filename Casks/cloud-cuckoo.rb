@@ -7,7 +7,8 @@ cask "cloud-cuckoo" do
   homepage "https://github.com/Cloud-Cuckoo/App/"
   app "Cloud Cuckoo.app", target: "App Fair/Cloud Cuckoo.app"
   depends_on macos: ">= :monterey"
+  
   postflight do
-    system "xattr", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Cloud Cuckoo.app"
+    system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Cloud Cuckoo.app"
   end
 end

@@ -7,7 +7,8 @@ cask "tune-out" do
   homepage "https://github.com/Tune-Out/App/"
   app "Tune Out.app", target: "App Fair/Tune Out.app"
   depends_on macos: ">= :monterey"
+  
   postflight do
-    system "xattr", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tune Out.app"
+    system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tune Out.app"
   end
 end

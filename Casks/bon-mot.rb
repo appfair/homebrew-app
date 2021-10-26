@@ -7,7 +7,8 @@ cask "bon-mot" do
   homepage "https://github.com/Bon-Mot/App/"
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
   depends_on macos: ">= :monterey"
+  
   postflight do
-    system "xattr", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
+    system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
   end
 end
