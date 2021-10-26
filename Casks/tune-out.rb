@@ -1,22 +1,28 @@
-cask 'tune-out' do
-  version '0.8.267'
-  sha256 '4a5519f158eefa2deadba68c1d8772c0a40147138f491eb57274dce11668cc12'
+cask "tune-out" do
+  version "0.8.267"
+  sha256 "4a5519f158eefa2deadba68c1d8772c0a40147138f491eb57274dce11668cc12"
 
   url "https://github.com/Tune-Out/App/releases/download/#{version}/Tune-Out-macOS.zip",
       verified: "github.com/Tune-Out/"
-  name 'Tune Out'
-  desc 'Tune Out'
-  homepage 'https://github.com/Tune-Out/App/'
+  name "Tune Out"
+  desc "Stream Internet Radio"
+  homepage "https://github.com/Tune-Out/App/"
 
-  depends_on macos: '>= :monterey'
+  depends_on macos: ">= :monterey"
   
 
-  app 'Tune Out.app', target: 'App Fair/Tune Out.app'
+  app "Tune Out.app", target: "App Fair/Tune Out.app"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tune Out.app"
   end
 
-  uninstall quit: 'app.Tune-Out'
-  zap trash: '~/Library/Containers/app.Tune-Out'
+  uninstall quit: "app.Tune-Out"
+  zap trash: [
+    "~/Library/Caches/app.Tune-Out",
+    "~/Library/Containers/app.Tune-Out",
+    "~/Library/Preferences/app.Tune-Out.plist",
+    "~/Library/Application Scripts/app.Tune-Out",
+    "~/Library/Saved Application State/app.Tune-Out.savedState",
+  ]
 end

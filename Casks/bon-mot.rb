@@ -1,22 +1,28 @@
-cask 'bon-mot' do
-  version '0.0.25'
-  sha256 '0e2a699f5aa77f124aec96055179da5cfda905ebe63e291e49081c63024a677a'
+cask "bon-mot" do
+  version "0.0.26"
+  sha256 "fc6f4ae75daa3c5937d694a724ec4a8e8484b7021d944d58c22e840fbe14dda9"
 
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
-  name 'Bon Mot'
-  desc 'Bon Mot'
-  homepage 'https://github.com/Bon-Mot/App/'
+  name "Bon Mot"
+  desc "Book reader"
+  homepage "https://github.com/Bon-Mot/App/"
 
-  depends_on macos: '>= :monterey'
+  depends_on macos: ">= :monterey"
   
 
-  app 'Bon Mot.app', target: 'App Fair/Bon Mot.app'
+  app "Bon Mot.app", target: "App Fair/Bon Mot.app"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
   end
 
-  uninstall quit: 'app.Bon-Mot'
-  zap trash: '~/Library/Containers/app.Bon-Mot'
+  uninstall quit: "app.Bon-Mot"
+  zap trash: [
+    "~/Library/Caches/app.Bon-Mot",
+    "~/Library/Containers/app.Bon-Mot",
+    "~/Library/Preferences/app.Bon-Mot.plist",
+    "~/Library/Application Scripts/app.Bon-Mot",
+    "~/Library/Saved Application State/app.Bon-Mot.savedState",
+  ]
 end
