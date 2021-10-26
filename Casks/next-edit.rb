@@ -9,7 +9,7 @@ cask "next-edit" do
   homepage "https://github.com/Next-Edit/App/"
 
   depends_on macos: ">= :monterey"
-  
+  depends_on cask: "app-fair"
 
   app "Next Edit.app", target: "App Fair/Next Edit.app"
 

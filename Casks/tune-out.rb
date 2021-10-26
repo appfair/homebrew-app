@@ -9,7 +9,7 @@ cask "tune-out" do
   homepage "https://github.com/Tune-Out/App/"
 
   depends_on macos: ">= :monterey"
-  
+  depends_on cask: "app-fair"
 
   app "Tune Out.app", target: "App Fair/Tune Out.app"
 

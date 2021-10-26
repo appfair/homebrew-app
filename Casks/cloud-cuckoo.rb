@@ -9,7 +9,7 @@ cask "cloud-cuckoo" do
   homepage "https://github.com/Cloud-Cuckoo/App/"
 
   depends_on macos: ">= :monterey"
-  
+  depends_on cask: "app-fair"
 
   app "Cloud Cuckoo.app", target: "App Fair/Cloud Cuckoo.app"
 
