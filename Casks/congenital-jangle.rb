@@ -1,6 +1,6 @@
 cask "congenital-jangle" do
-  version "0.0.4"
-  sha256 "f036ba498d5a6ef66ffbf0d9508879fd278300c460fd1475baf8ac450f2621c0"
+  version "0.0.5"
+  sha256 "db2f4b5f3b164e75c6f1d5e1a9e5f4a6f21fa87a191e4545199647642b995b65"
 
   url "https://github.com/Congenital-Jangle/App/releases/download/#{version}/Congenital-Jangle-macOS.zip",
       verified: "github.com/Congenital-Jangle/"
