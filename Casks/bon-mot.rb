@@ -1,6 +1,6 @@
 cask "bon-mot" do
-  version "0.0.35"
-  sha256 "75c21bc0f4d75b0ac9dcb647961a49ed0cea40ba447740d69e7248058981e448"
+  version "0.0.36"
+  sha256 "885c339bb2d481f1f0ff9111365ecfe62a4fc196e15d06ec04310cc8bf2ddbbd"
 
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
