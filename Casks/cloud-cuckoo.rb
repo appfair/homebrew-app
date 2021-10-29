@@ -12,6 +12,7 @@ cask "cloud-cuckoo" do
   depends_on cask: "app-fair"
 
   app "Cloud Cuckoo.app", target: "App Fair/Cloud Cuckoo.app"
+  
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Cloud Cuckoo.app"

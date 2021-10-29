@@ -1,6 +1,6 @@
 cask "bon-mot" do
-  version "0.0.36"
-  sha256 "885c339bb2d481f1f0ff9111365ecfe62a4fc196e15d06ec04310cc8bf2ddbbd"
+  version "0.0.40"
+  sha256 "4381c3bf89765379fcefd0ad0f8d70dadcc1c30500632c2e96ff77a70bcee614"
 
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
@@ -12,6 +12,7 @@ cask "bon-mot" do
   depends_on cask: "app-fair"
 
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
+  
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
