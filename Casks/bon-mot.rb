@@ -12,7 +12,7 @@ cask "bon-mot" do
   depends_on cask: "app-fair"
 
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
-  
+  binary "App Fair/Bon Mot.app/Contents/MacOS/Bon Mot", target: "bon-mot"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
