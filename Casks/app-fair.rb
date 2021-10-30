@@ -12,7 +12,7 @@ cask "app-fair" do
   
 
   app "App Fair.app", target: "App Fair.app"
-  binary "App Fair.app/Contents/MacOS/App Fair", target: "app-fair"
+  binary "#{appdir}/App Fair.app/Contents/MacOS/App Fair", target: "app-fair"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair.app"

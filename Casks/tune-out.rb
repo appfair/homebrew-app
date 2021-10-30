@@ -12,7 +12,7 @@ cask "tune-out" do
   depends_on cask: "app-fair"
 
   app "Tune Out.app", target: "App Fair/Tune Out.app"
-  binary "App Fair/Tune Out.app/Contents/MacOS/Tune Out", target: "tune-out"
+  binary "#{appdir}/App Fair/Tune Out.app/Contents/MacOS/Tune Out", target: "tune-out"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tune Out.app"

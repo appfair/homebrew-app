@@ -12,7 +12,7 @@ cask "next-edit" do
   depends_on cask: "app-fair"
 
   app "Next Edit.app", target: "App Fair/Next Edit.app"
-  binary "App Fair/Next Edit.app/Contents/MacOS/Next Edit", target: "next-edit"
+  binary "#{appdir}/App Fair/Next Edit.app/Contents/MacOS/Next Edit", target: "next-edit"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Next Edit.app"
