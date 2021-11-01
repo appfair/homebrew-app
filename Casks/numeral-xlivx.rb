@@ -1,6 +1,6 @@
 cask "numeral-xlivx" do
-  version "0.0.2"
-  sha256 "e30c635996a10609c3342e7fcf24c6729fb059351d2bb6081a8d1accfb4272f3"
+  version "0.0.3"
+  sha256 "c54fb144949a304321baa2d864a8e2b08254c0f4aa9b828008211af3d8b4eea6"
 
   url "https://github.com/Numeral-XLIVX/App/releases/download/#{version}/Numeral-XLIVX-macOS.zip",
       verified: "github.com/Numeral-XLIVX/"
