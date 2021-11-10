@@ -1,8 +1,8 @@
 cask "tune-out" do
-  version "0.8.323β"
+  version "0.8.323"
   sha256 "d986658c33226ac603a95990b50c0e67c50b1fd9d4bea1b61cb3293d92fd9f70"
 
-  url "https://github.com/Tune-Out/App/releases/download/0.8.323/Tune-Out-macOS.zip",
+  url "https://github.com/Tune-Out/App/releases/download/#{version}/Tune-Out-macOS.zip",
       verified: "github.com/Tune-Out/"
   name "Tune Out"
   desc "Stream Internet Radio"

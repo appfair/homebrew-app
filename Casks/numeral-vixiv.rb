@@ -1,8 +1,8 @@
 cask "numeral-vixiv" do
-  version "0.0.1β"
+  version "0.0.1"
   sha256 "b97dbc2ee4893d8707ec9b0af71a549105441bfaf24fce6e71177e38829cb98c"
 
-  url "https://github.com/Numeral-VIXIV/App/releases/download/0.0.1/Numeral-VIXIV-macOS.zip",
+  url "https://github.com/Numeral-VIXIV/App/releases/download/#{version}/Numeral-VIXIV-macOS.zip",
       verified: "github.com/Numeral-VIXIV/"
   name "Numeral VIXIV"
   desc "An app for learning Roman Numerals"
