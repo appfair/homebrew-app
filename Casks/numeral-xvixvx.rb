@@ -1,8 +1,8 @@
 cask "numeral-xvixvx" do
-  version "0.0.2"
+  version "0.0.2β"
   sha256 "a024e2d075941619f2e790045692c8af8ac223affd861ce7e5cea2707dbf0e8e"
 
-  url "https://github.com/Numeral-XVIXVX/App/releases/download/#{version}/Numeral-XVIXVX-macOS.zip",
+  url "https://github.com/Numeral-XVIXVX/App/releases/download/0.0.2/Numeral-XVIXVX-macOS.zip",
       verified: "github.com/Numeral-XVIXVX/"
   name "Numeral XVIXVX"
   desc "A simple yet useful app"

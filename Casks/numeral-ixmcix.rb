@@ -1,8 +1,8 @@
 cask "numeral-ixmcix" do
-  version "0.0.5"
+  version "0.0.5β"
   sha256 "0b02452f0c42f12224486be1e60a22609d55be69a32758fd26bb1389a668a22d"
 
-  url "https://github.com/Numeral-IXMCIX/App/releases/download/#{version}/Numeral-IXMCIX-macOS.zip",
+  url "https://github.com/Numeral-IXMCIX/App/releases/download/0.0.5/Numeral-IXMCIX-macOS.zip",
       verified: "github.com/Numeral-IXMCIX/"
   name "Numeral IXMCIX"
   desc "A handy and useful artists tool"

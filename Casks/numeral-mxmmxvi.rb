@@ -1,8 +1,8 @@
 cask "numeral-mxmmxvi" do
-  version "0.0.2"
+  version "0.0.2β"
   sha256 "0362d575c229c3b8e101470e8cfb31b860363fc058c3cf05979cb2555c7016d2"
 
-  url "https://github.com/Numeral-MXMMXVI/App/releases/download/#{version}/Numeral-MXMMXVI-macOS.zip",
+  url "https://github.com/Numeral-MXMMXVI/App/releases/download/0.0.2/Numeral-MXMMXVI-macOS.zip",
       verified: "github.com/Numeral-MXMMXVI/"
   name "Numeral MXMMXVI"
   desc "A business app for business-folk"
