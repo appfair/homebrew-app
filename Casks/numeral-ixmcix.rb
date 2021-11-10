@@ -5,7 +5,7 @@ cask "numeral-ixmcix" do
   url "https://github.com/Numeral-IXMCIX/App/releases/download/#{version}/Numeral-IXMCIX-macOS.zip",
       verified: "github.com/Numeral-IXMCIX/"
   name "Numeral IXMCIX"
-  desc "An handy and useful artists tool"
+  desc "A handy and useful artists tool"
   homepage "https://github.com/Numeral-IXMCIX/App/"
 
   depends_on macos: ">= :monterey"
