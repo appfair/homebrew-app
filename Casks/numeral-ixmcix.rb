@@ -1,6 +1,6 @@
 cask "numeral-ixmcix" do
-  version "0.0.6"
-  sha256 "b062fecb43c028b1996d3c24ac24eead4b5778629d40f0f33987814fcf0668ed"
+  version "0.0.7"
+  sha256 "b653631d51da7ed9024fa7b3d6f7454960232665b6a5c410f3873dccbe5553af"
 
   url "https://github.com/Numeral-IXMCIX/App/releases/download/#{version}/Numeral-IXMCIX-macOS.zip",
       verified: "github.com/Numeral-IXMCIX/"
