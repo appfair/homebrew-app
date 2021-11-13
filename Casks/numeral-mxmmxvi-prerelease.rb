@@ -1,4 +1,4 @@
-cask "numeral-mxmmxvi" do
+cask "numeral-mxmmxvi-prerelease" do
   version "0.0.4"
   sha256 "1302ff39ad464d61ee2f9a666972cf185f615af9fe5ade1d088af3657b88354c"
 
@@ -12,7 +12,7 @@ cask "numeral-mxmmxvi" do
   depends_on cask: "app-fair"
 
   app "Numeral MXMMXVI.app", target: "App Fair/Numeral MXMMXVI.app"
-  binary "#{appdir}/App Fair/Numeral MXMMXVI.app/Contents/MacOS/Numeral MXMMXVI", target: "numeral-mxmmxvi"
+  binary "#{appdir}/App Fair/Numeral MXMMXVI.app/Contents/MacOS/Numeral MXMMXVI", target: "numeral-mxmmxvi-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Numeral MXMMXVI.app"
