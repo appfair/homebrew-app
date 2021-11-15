@@ -1,6 +1,6 @@
 cask "app-fair" do
-  version "0.6.195"
-  sha256 "eeef8d6faf89f2a1199a333313a13195c4869458dcccb534d9375f8708d1f087"
+  version "0.6.196"
+  sha256 "9a1c65a0707950b5b087480bfb99c9772636373a752348bb6ea500824529db56"
 
   url "https://github.com/App-Fair/App/releases/download/#{version}/App-Fair-macOS.zip",
       verified: "github.com/App-Fair/"
