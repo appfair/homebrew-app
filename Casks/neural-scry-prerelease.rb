@@ -5,7 +5,7 @@ cask "neural-scry-prerelease" do
   url "https://github.com/Neural-Scry/App/releases/download/#{version}/Neural-Scry-macOS.zip",
       verified: "github.com/Neural-Scry/"
   name "Neural Scry"
-  desc "A handy and useful artists tool"
+  desc "Look into the minds of others"
   homepage "https://github.com/Neural-Scry/App/"
 
   depends_on macos: ">= :monterey"
