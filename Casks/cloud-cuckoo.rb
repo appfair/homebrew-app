@@ -18,7 +18,6 @@ cask "cloud-cuckoo" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Cloud Cuckoo.app"
   end
 
-  uninstall quit: "app.Cloud-Cuckoo"
   zap trash: [
     "~/Library/Caches/app.Cloud-Cuckoo",
     "~/Library/Containers/app.Cloud-Cuckoo",

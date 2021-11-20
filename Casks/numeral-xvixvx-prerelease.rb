@@ -18,7 +18,6 @@ cask "numeral-xvixvx-prerelease" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Numeral XVIXVX.app"
   end
 
-  uninstall quit: "app.Numeral-XVIXVX"
   zap trash: [
     "~/Library/Caches/app.Numeral-XVIXVX",
     "~/Library/Containers/app.Numeral-XVIXVX",

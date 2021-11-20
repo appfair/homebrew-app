@@ -18,7 +18,6 @@ cask "next-edit" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Next Edit.app"
   end
 
-  uninstall quit: "app.Next-Edit"
   zap trash: [
     "~/Library/Caches/app.Next-Edit",
     "~/Library/Containers/app.Next-Edit",

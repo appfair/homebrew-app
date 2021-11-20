@@ -18,7 +18,6 @@ cask "numeral-mxmmxvi-prerelease" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Numeral MXMMXVI.app"
   end
 
-  uninstall quit: "app.Numeral-MXMMXVI"
   zap trash: [
     "~/Library/Caches/app.Numeral-MXMMXVI",
     "~/Library/Containers/app.Numeral-MXMMXVI",

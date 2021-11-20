@@ -18,7 +18,6 @@ cask "tune-out" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tune Out.app"
   end
 
-  uninstall quit: "app.Tune-Out"
   zap trash: [
     "~/Library/Caches/app.Tune-Out",
     "~/Library/Containers/app.Tune-Out",

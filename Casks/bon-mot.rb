@@ -1,6 +1,6 @@
 cask "bon-mot" do
-  version "0.1.3"
-  sha256 "4a543a65775997ab5219b3eba5a609c58a40f66ba2b1efeba8508aba9ccd6e4f"
+  version "0.1.4"
+  sha256 "5faa61a4d32fcd45446e17f1b7374e53821d46bb656297b8a14d748b0a3e0a8a"
 
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
@@ -18,7 +18,6 @@ cask "bon-mot" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
   end
 
-  uninstall quit: "app.Bon-Mot"
   zap trash: [
     "~/Library/Caches/app.Bon-Mot",
     "~/Library/Containers/app.Bon-Mot",

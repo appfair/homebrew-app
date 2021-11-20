@@ -18,7 +18,6 @@ cask "numeral-ixmcix-prerelease" do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Numeral IXMCIX.app"
   end
 
-  uninstall quit: "app.Numeral-IXMCIX"
   zap trash: [
     "~/Library/Caches/app.Numeral-IXMCIX",
     "~/Library/Containers/app.Numeral-IXMCIX",
