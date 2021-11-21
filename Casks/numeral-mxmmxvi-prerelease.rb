@@ -1,6 +1,6 @@
 cask "numeral-mxmmxvi-prerelease" do
-  version "0.0.6"
-  sha256 "413bc2e6e0061850a72a648dbc99ebbf3e7fe2c1492e5f5c073395d88c308e9d"
+  version "0.0.7"
+  sha256 "bc88384609cc6a51852f166d027cf279321e15dd4dc85e24be974e26d19df96a"
 
   url "https://github.com/Numeral-MXMMXVI/App/releases/download/#{version}/Numeral-MXMMXVI-macOS.zip",
       verified: "github.com/Numeral-MXMMXVI/"
