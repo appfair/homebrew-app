@@ -1,4 +1,4 @@
-cask "bon-mot-prerelease" do
+cask "bon-mot" do
   version "1.1.13"
   sha256 "1e6078b25eb07add6f5e25bc1589e6b8020dbfded56ea72ff851f83815204ce9"
 
@@ -12,7 +12,7 @@ cask "bon-mot-prerelease" do
   
 
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
-  binary "#{appdir}/App Fair/Bon Mot.app/Contents/MacOS/Bon Mot", target: "bon-mot-prerelease"
+  binary "#{appdir}/App Fair/Bon Mot.app/Contents/MacOS/Bon Mot", target: "bon-mot"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"

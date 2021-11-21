@@ -1,4 +1,4 @@
-cask "numeral-xvixvx-prerelease" do
+cask "numeral-xvixvx" do
   version "0.2.2"
   sha256 "dcf5072ffdcb54bd9ac053650751a457e3318b7c054682146f83426e2a49725b"
 
@@ -12,7 +12,7 @@ cask "numeral-xvixvx-prerelease" do
   
 
   app "Numeral XVIXVX.app", target: "App Fair/Numeral XVIXVX.app"
-  binary "#{appdir}/App Fair/Numeral XVIXVX.app/Contents/MacOS/Numeral XVIXVX", target: "numeral-xvixvx-prerelease"
+  binary "#{appdir}/App Fair/Numeral XVIXVX.app/Contents/MacOS/Numeral XVIXVX", target: "numeral-xvixvx"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Numeral XVIXVX.app"

@@ -1,4 +1,4 @@
-cask "cloud-cuckoo-prerelease" do
+cask "cloud-cuckoo" do
   version "0.8.153"
   sha256 "d97f19db61ce330ab069e7d0c782b9f65aa5bc5c0cc5dd6d4d5709bdb21df4b1"
 
@@ -12,7 +12,7 @@ cask "cloud-cuckoo-prerelease" do
   
 
   app "Cloud Cuckoo.app", target: "App Fair/Cloud Cuckoo.app"
-  binary "#{appdir}/App Fair/Cloud Cuckoo.app/Contents/MacOS/Cloud Cuckoo", target: "cloud-cuckoo-prerelease"
+  binary "#{appdir}/App Fair/Cloud Cuckoo.app/Contents/MacOS/Cloud Cuckoo", target: "cloud-cuckoo"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Cloud Cuckoo.app"
