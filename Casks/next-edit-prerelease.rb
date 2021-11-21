@@ -1,6 +1,6 @@
 cask "next-edit-prerelease" do
-  version "0.1.11"
-  sha256 "4be6f6527ac6824e8c94587de191f4be8f23b4593d385fcf11d27ccc90790425"
+  version "0.1.12"
+  sha256 "2a0d3f99fab54d7566acb6e2d6b51828ac503f4f5dc2ad2510a64fc520733535"
 
   url "https://github.com/Next-Edit/App/releases/download/#{version}/Next-Edit-macOS.zip",
       verified: "github.com/Next-Edit/"
