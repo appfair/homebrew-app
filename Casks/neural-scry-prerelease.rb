@@ -9,7 +9,7 @@ cask "neural-scry-prerelease" do
   homepage "https://github.com/Neural-Scry/App/"
 
   depends_on macos: ">= :monterey"
-  depends_on cask: "app-fair"
+  
 
   app "Neural Scry.app", target: "App Fair/Neural Scry.app"
   binary "#{appdir}/App Fair/Neural Scry.app/Contents/MacOS/Neural Scry", target: "neural-scry-prerelease"

@@ -9,7 +9,7 @@ cask "numeral-mxmmxvi-prerelease" do
   homepage "https://github.com/Numeral-MXMMXVI/App/"
 
   depends_on macos: ">= :monterey"
-  depends_on cask: "app-fair"
+  
 
   app "Numeral MXMMXVI.app", target: "App Fair/Numeral MXMMXVI.app"
   binary "#{appdir}/App Fair/Numeral MXMMXVI.app/Contents/MacOS/Numeral MXMMXVI", target: "numeral-mxmmxvi-prerelease"

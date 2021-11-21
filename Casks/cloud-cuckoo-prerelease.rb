@@ -9,7 +9,7 @@ cask "cloud-cuckoo-prerelease" do
   homepage "https://github.com/Cloud-Cuckoo/App/"
 
   depends_on macos: ">= :monterey"
-  depends_on cask: "app-fair"
+  
 
   app "Cloud Cuckoo.app", target: "App Fair/Cloud Cuckoo.app"
   binary "#{appdir}/App Fair/Cloud Cuckoo.app/Contents/MacOS/Cloud Cuckoo", target: "cloud-cuckoo-prerelease"

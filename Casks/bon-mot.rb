@@ -9,7 +9,7 @@ cask "bon-mot" do
   homepage "https://github.com/Bon-Mot/App/"
 
   depends_on macos: ">= :monterey"
-  depends_on cask: "app-fair"
+  
 
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
   binary "#{appdir}/App Fair/Bon Mot.app/Contents/MacOS/Bon Mot", target: "bon-mot"
