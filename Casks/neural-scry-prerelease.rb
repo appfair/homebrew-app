@@ -1,6 +1,6 @@
 cask "neural-scry-prerelease" do
-  version "0.0.15"
-  sha256 "4f514da31a686a5345eb3c152014afac65c984e19469f3897b02300e3eb1abb4"
+  version "0.0.16"
+  sha256 "10df19eb7bd300cfeedf64d24a14967c6a7a197b95237a69a7d607e1a98ac57e"
 
   url "https://github.com/Neural-Scry/App/releases/download/#{version}/Neural-Scry-macOS.zip",
       verified: "github.com/Neural-Scry/"
