@@ -5,7 +5,7 @@ cask "bon-mot" do
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
   name "Bon Mot"
-  desc "Book reader"
+  desc "Simple dictionary app"
   homepage "https://github.com/Bon-Mot/App/"
 
   depends_on macos: ">= :monterey"

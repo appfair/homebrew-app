@@ -1,11 +1,11 @@
 cask "bon-mot-prerelease" do
-  version "1.1.16"
-  sha256 "eace5a28a10ed0c2d16afae291ea7c527a3cf53b59572b13adda9f9b7669433b"
+  version "1.1.18"
+  sha256 "7e4cb841932e49009cf3ac92509c69daec63dc69495aaf7edd0c20860894af1f"
 
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
   name "Bon Mot"
-  desc "Book reader"
+  desc "Simple dictionary app"
   homepage "https://github.com/Bon-Mot/App/"
 
   depends_on macos: ">= :monterey"
