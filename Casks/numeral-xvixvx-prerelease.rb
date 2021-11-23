@@ -1,6 +1,6 @@
 cask "numeral-xvixvx-prerelease" do
-  version "0.2.5"
-  sha256 "db308ee9efeb573372226bec5a0010850092648aecf5e6695e4e9b46cf2367a2"
+  version "0.2.6"
+  sha256 "a0565e11daaa77c4d0647869bc5247955c0b67c334158a189ec7f01ec716160f"
 
   url "https://github.com/Numeral-XVIXVX/App/releases/download/#{version}/Numeral-XVIXVX-macOS.zip",
       verified: "github.com/Numeral-XVIXVX/"
