@@ -1,6 +1,6 @@
 cask "brew-meister-prerelease" do
-  version "0.0.3"
-  sha256 "f196ffb996d8e3bbd9d126c15641fd0ca1dc107938ea9e0bacdcf07017b8b5bf"
+  version "0.0.4"
+  sha256 "40f4e91de1a036be391166986a3a538cfe290fe42654b212526ab29ccef67287"
 
   url "https://github.com/Brew-Meister/App/releases/download/#{version}/Brew-Meister-macOS.zip",
       verified: "github.com/Brew-Meister/"
