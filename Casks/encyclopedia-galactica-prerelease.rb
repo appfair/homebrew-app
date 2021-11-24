@@ -5,7 +5,7 @@ cask "encyclopedia-galactica-prerelease" do
   url "https://github.com/Encyclopedia-Galactica/App/releases/download/#{version}/Encyclopedia-Galactica-macOS.zip",
       verified: "github.com/Encyclopedia-Galactica/"
   name "Encyclopedia Galactica"
-  desc "Fork to make an App Fair App"
+  desc "All the accumulated knowledge in the galaxy"
   homepage "https://github.com/Encyclopedia-Galactica/App/"
 
   depends_on macos: ">= :monterey"
