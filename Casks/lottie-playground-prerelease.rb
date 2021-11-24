@@ -1,6 +1,6 @@
 cask "lottie-playground-prerelease" do
-  version "0.0.5"
-  sha256 "d7a3cad40fae57dc47be38542ac6d91c4aef23f96bb606ebd44e248015133e69"
+  version "0.0.6"
+  sha256 "2f36da5db58711121ba1ec20b99f58485e10a3edd298b24553c8bfc07c38f0c3"
 
   url "https://github.com/Lottie-Playground/App/releases/download/#{version}/Lottie-Playground-macOS.zip",
       verified: "github.com/Lottie-Playground/"
