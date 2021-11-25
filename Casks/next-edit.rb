@@ -1,4 +1,4 @@
-cask "next-edit-prerelease" do
+cask "next-edit" do
   version "0.1.19"
   sha256 "7c86b402b4a43fbdc53a14aee69ae4b27a604e8cf47c5b808f8a415c931219ca"
 
@@ -12,7 +12,7 @@ cask "next-edit-prerelease" do
   
 
   app "Next Edit.app", target: "App Fair/Next Edit.app"
-  binary "#{appdir}/App Fair/Next Edit.app/Contents/MacOS/Next Edit", target: "next-edit-prerelease"
+  binary "#{appdir}/App Fair/Next Edit.app/Contents/MacOS/Next Edit", target: "next-edit"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Next Edit.app"

@@ -1,4 +1,4 @@
-cask "lottie-playground-prerelease" do
+cask "lottie-playground" do
   version "0.0.7"
   sha256 "6004ba90b81e86772831b6488f80602f5870dbf72aceeac5930493115d9ef5de"
 
@@ -12,7 +12,7 @@ cask "lottie-playground-prerelease" do
   
 
   app "Lottie Playground.app", target: "App Fair/Lottie Playground.app"
-  binary "#{appdir}/App Fair/Lottie Playground.app/Contents/MacOS/Lottie Playground", target: "lottie-playground-prerelease"
+  binary "#{appdir}/App Fair/Lottie Playground.app/Contents/MacOS/Lottie Playground", target: "lottie-playground"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Lottie Playground.app"
