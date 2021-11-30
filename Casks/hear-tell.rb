@@ -1,6 +1,6 @@
-cask "hear-tell-prerelease" do
-  version "0.2.20"
-  sha256 "5efe628984e4fb59376da6a889900b4a4bddc145c958f078733d1dee1a825e17"
+cask "hear-tell" do
+  version "0.2.21"
+  sha256 "644fc1b63c563536ed50433d8ca308f84df4cb996e53582466fb8bd58e905e6c"
 
   url "https://github.com/Hear-Tell/App/releases/download/#{version}/Hear-Tell-macOS.zip",
       verified: "github.com/Hear-Tell/"
@@ -12,7 +12,7 @@ cask "hear-tell-prerelease" do
   
 
   app "Hear Tell.app", target: "App Fair/Hear Tell.app"
-  binary "#{appdir}/App Fair/Hear Tell.app/Contents/MacOS/Hear Tell", target: "hear-tell-prerelease"
+  binary "#{appdir}/App Fair/Hear Tell.app/Contents/MacOS/Hear Tell", target: "hear-tell"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Hear Tell.app"
