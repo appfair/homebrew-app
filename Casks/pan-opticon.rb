@@ -1,6 +1,6 @@
-cask "pan-opticon-prerelease" do
-  version "0.0.14"
-  sha256 "e6aa084f7e132c5b2d45165bef7b67695c496cb19242e0b1c8fcfc9eecff585c"
+cask "pan-opticon" do
+  version "0.0.15"
+  sha256 "3c1ea83eeef9180fa7b6a4df97d5eef4d35b07d12d07f8e4f6d8f2f558dcc46b"
 
   url "https://github.com/Pan-Opticon/App/releases/download/#{version}/Pan-Opticon-macOS.zip",
       verified: "github.com/Pan-Opticon/"
@@ -12,7 +12,7 @@ cask "pan-opticon-prerelease" do
   
 
   app "Pan Opticon.app", target: "App Fair/Pan Opticon.app"
-  binary "#{appdir}/App Fair/Pan Opticon.app/Contents/MacOS/Pan Opticon", target: "pan-opticon-prerelease"
+  binary "#{appdir}/App Fair/Pan Opticon.app/Contents/MacOS/Pan Opticon", target: "pan-opticon"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Pan Opticon.app"
