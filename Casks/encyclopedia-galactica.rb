@@ -1,4 +1,4 @@
-cask "encyclopedia-galactica-prerelease" do
+cask "encyclopedia-galactica" do
   version "0.0.13"
   sha256 "ed2abf4965c667d54a6de10ad8a9f43194b8ea33398929540336073b17832cab"
 
@@ -12,7 +12,7 @@ cask "encyclopedia-galactica-prerelease" do
   
 
   app "Encyclopedia Galactica.app", target: "App Fair/Encyclopedia Galactica.app"
-  binary "#{appdir}/App Fair/Encyclopedia Galactica.app/Contents/MacOS/Encyclopedia Galactica", target: "encyclopedia-galactica-prerelease"
+  binary "#{appdir}/App Fair/Encyclopedia Galactica.app/Contents/MacOS/Encyclopedia Galactica", target: "encyclopedia-galactica"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Encyclopedia Galactica.app"
