@@ -1,6 +1,6 @@
 cask "hear-tell-prerelease" do
-  version "0.2.14"
-  sha256 "d500246fbb7a13e708d592a0bea3ae978dcb3f19583d467f208f04379125d878"
+  version "0.2.19"
+  sha256 "c3907e553dddb063f0936ca4594d1688f79db60bf17bc4dc32906092556ee62a"
 
   url "https://github.com/Hear-Tell/App/releases/download/#{version}/Hear-Tell-macOS.zip",
       verified: "github.com/Hear-Tell/"
