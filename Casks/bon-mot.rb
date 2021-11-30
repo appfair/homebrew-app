@@ -1,6 +1,6 @@
-cask "bon-mot-prerelease" do
-  version "1.1.27"
-  sha256 "9c34f888eef95e5f393d0a4a4af4bfeee7c954ab68c7825496d893b3031f8c7e"
+cask "bon-mot" do
+  version "1.1.28"
+  sha256 "96e6fb642d32f50864d188cff485ba869d2c910348ed44e3e674760e8a38fb85"
 
   url "https://github.com/Bon-Mot/App/releases/download/#{version}/Bon-Mot-macOS.zip",
       verified: "github.com/Bon-Mot/"
@@ -12,7 +12,7 @@ cask "bon-mot-prerelease" do
   
 
   app "Bon Mot.app", target: "App Fair/Bon Mot.app"
-  binary "#{appdir}/App Fair/Bon Mot.app/Contents/MacOS/Bon Mot", target: "bon-mot-prerelease"
+  binary "#{appdir}/App Fair/Bon Mot.app/Contents/MacOS/Bon Mot", target: "bon-mot"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Bon Mot.app"
