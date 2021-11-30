@@ -1,4 +1,4 @@
-cask "tune-out-prerelease" do
+cask "tune-out" do
   version "0.8.366"
   sha256 "24440eb125f3ae988e2db49d277547550dac7058eafb1848c8f8493ac051663e"
 
@@ -12,7 +12,7 @@ cask "tune-out-prerelease" do
   
 
   app "Tune Out.app", target: "App Fair/Tune Out.app"
-  binary "#{appdir}/App Fair/Tune Out.app/Contents/MacOS/Tune Out", target: "tune-out-prerelease"
+  binary "#{appdir}/App Fair/Tune Out.app/Contents/MacOS/Tune Out", target: "tune-out"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tune Out.app"
