@@ -1,6 +1,6 @@
-cask "app-fair-prerelease" do
-  version "0.6.243"
-  sha256 "5687a11590b75d1a716e6fcc317cfef0296d41bbe4e83c0689948e647076a9d1"
+cask "app-fair" do
+  version "0.6.246"
+  sha256 "03b288056b3adc1435c34a6c3aef8ff811ecff08dbfda9bccc5d01103c7290d5"
 
   url "https://github.com/App-Fair/App/releases/download/#{version}/App-Fair-macOS.zip",
       verified: "github.com/App-Fair/"
@@ -12,7 +12,7 @@ cask "app-fair-prerelease" do
   
 
   app "App Fair.app", target: "App Fair.app"
-  binary "#{appdir}/App Fair.app/Contents/MacOS/App Fair", target: "app-fair-prerelease"
+  binary "#{appdir}/App Fair.app/Contents/MacOS/App Fair", target: "app-fair"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair.app"
