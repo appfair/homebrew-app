@@ -1,6 +1,6 @@
-cask "visi-calc-prerelease" do
-  version "0.0.30"
-  sha256 "ee822cad961576d81ea4d1568a3b04e23b5f307637f2e14e0599afc752cb4525"
+cask "visi-calc" do
+  version "0.0.31"
+  sha256 "09893633a847925c1f43ef5bd6827868e3a2d4f3ce9618b494d298e058f28067"
 
   url "https://github.com/Visi-Calc/App/releases/download/#{version}/Visi-Calc-macOS.zip",
       verified: "github.com/Visi-Calc/"
@@ -12,7 +12,7 @@ cask "visi-calc-prerelease" do
   
 
   app "Visi Calc.app", target: "App Fair/Visi Calc.app"
-  binary "#{appdir}/App Fair/Visi Calc.app/Contents/MacOS/Visi Calc", target: "visi-calc-prerelease"
+  binary "#{appdir}/App Fair/Visi Calc.app/Contents/MacOS/Visi Calc", target: "visi-calc"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Visi Calc.app"
