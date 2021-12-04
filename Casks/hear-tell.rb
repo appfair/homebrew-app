@@ -1,6 +1,6 @@
 cask "hear-tell" do
-  version "0.3.9"
-  sha256 "c670b70486a23068197f463b3f0474ffceb0f955ac048588c52713cf2a3a29af"
+  version "0.3.10"
+  sha256 "fb70966dcc4e706aeaf46d271c5ea69ca08dced3f569e416b1b1bb39430b3e21"
 
   url "https://github.com/Hear-Tell/App/releases/download/#{version}/Hear-Tell-macOS.zip",
       verified: "github.com/Hear-Tell/"
