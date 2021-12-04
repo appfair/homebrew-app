@@ -1,6 +1,6 @@
 cask "visi-calc" do
-  version "0.0.34"
-  sha256 "4c097488761c16ea96a1fbe6f33b9290a5beabe4d4910966881efb13ad3f39bb"
+  version "0.0.35"
+  sha256 "bf272b1c05d5dba3bb0514e4ab429009301d57d6fb147f7b36b882db426ac782"
 
   url "https://github.com/Visi-Calc/App/releases/download/#{version}/Visi-Calc-macOS.zip",
       verified: "github.com/Visi-Calc/"
