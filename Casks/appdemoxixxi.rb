@@ -1,6 +1,6 @@
 cask "appdemoxixxi" do
-  version "0.0.8"
-  sha256 "479dba16043557411337f803eeee72d24491e5f1a6fe76144e81a5a49ffc9e1e"
+  version "0.0.9"
+  sha256 "9829b601585a8a3cefa5d9613bd7263c88870def3021c79b7de499081318648f"
 
   url "https://github.com/AppDemoXIXXI/App/releases/download/#{version}/AppDemoXIXXI-macOS.zip",
       verified: "github.com/AppDemoXIXXI/"
