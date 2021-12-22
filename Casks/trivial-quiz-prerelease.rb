@@ -5,7 +5,7 @@ cask "trivial-quiz-prerelease" do
   url "https://github.com/Trivial-Quiz/App/releases/download/#{version}/Trivial-Quiz-macOS.zip",
       verified: "github.com/Trivial-Quiz/"
   name "Trivial Quiz"
-  desc "Fork to make an App Fair App"
+  desc "A little quiz game"
   homepage "https://github.com/Trivial-Quiz/App/"
 
   depends_on macos: ">= :monterey"
