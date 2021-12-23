@@ -1,6 +1,6 @@
 cask "name-sense" do
-  version "0.0.5"
-  sha256 "a95ea6b1b59bbf668455dd485ca46b13b3427c5c358979654ff61c00536d159d"
+  version "0.0.6"
+  sha256 "3a72f240abc7d9bc1c9ccb5716537569a72eee8cee768df6e07a6e6c5e9f4811"
 
   url "https://github.com/Name-Sense/App/releases/download/#{version}/Name-Sense-macOS.zip",
       verified: "github.com/Name-Sense/"
