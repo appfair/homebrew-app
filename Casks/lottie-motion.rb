@@ -1,6 +1,6 @@
 cask "lottie-motion" do
-  version "0.0.72"
-  sha256 "6026b91024b461003a312b614bb65fb0a6b2297d6fa4d448dd678738578443eb"
+  version "0.0.73"
+  sha256 "a5fb99eba57e37ebf8847c95566842a90a6947c9546d8a6b2d7ea865765c12f2"
 
   url "https://github.com/Lottie-Motion/App/releases/download/#{version}/Lottie-Motion-macOS.zip",
       verified: "github.com/Lottie-Motion/"
