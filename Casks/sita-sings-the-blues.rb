@@ -1,6 +1,6 @@
-cask "sita-sings-the-blues-prerelease" do
-  version "0.0.1"
-  sha256 "ed81f89968500e326bac06bf5a32ef2e1d59f71178bcf8abb53994c4fe859e8e"
+cask "sita-sings-the-blues" do
+  version "0.0.5"
+  sha256 "80ce2eb4f1bfc8f52a211de18e566469793f5ba243b5e0cc1c9ef67653e05357"
 
   url "https://github.com/Sita-Sings-the-Blues/App/releases/download/#{version}/Sita-Sings-the-Blues-macOS.zip",
       verified: "github.com/Sita-Sings-the-Blues/"
@@ -12,7 +12,7 @@ cask "sita-sings-the-blues-prerelease" do
   
 
   app "Sita Sings the Blues.app", target: "App Fair/Sita Sings the Blues.app"
-  binary "#{appdir}/App Fair/Sita Sings the Blues.app/Contents/MacOS/Sita Sings the Blues", target: "sita-sings-the-blues-prerelease"
+  binary "#{appdir}/App Fair/Sita Sings the Blues.app/Contents/MacOS/Sita Sings the Blues", target: "sita-sings-the-blues"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Sita Sings the Blues.app"
