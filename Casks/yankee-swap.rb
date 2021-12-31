@@ -1,6 +1,6 @@
-cask "yankee-swap-prerelease" do
-  version "0.0.3"
-  sha256 "9f50ba09ac5a6f68490d1fc5af87087339809efbbed067c7f231d7b7d9cf3ae5"
+cask "yankee-swap" do
+  version "0.0.4"
+  sha256 "51b983cae367aad162f4225a5e2d423a49289779c5f41489f5e34b16cbcb027c"
 
   url "https://github.com/Yankee-Swap/App/releases/download/#{version}/Yankee-Swap-macOS.zip",
       verified: "github.com/Yankee-Swap/"
@@ -12,7 +12,7 @@ cask "yankee-swap-prerelease" do
   
 
   app "Yankee Swap.app", target: "App Fair/Yankee Swap.app"
-  binary "#{appdir}/App Fair/Yankee Swap.app/Contents/MacOS/Yankee Swap", target: "yankee-swap-prerelease"
+  binary "#{appdir}/App Fair/Yankee Swap.app/Contents/MacOS/Yankee Swap", target: "yankee-swap"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Yankee Swap.app"
