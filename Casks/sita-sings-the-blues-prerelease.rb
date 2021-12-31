@@ -5,7 +5,7 @@ cask "sita-sings-the-blues-prerelease" do
   url "https://github.com/Sita-Sings-the-Blues/App/releases/download/#{version}/Sita-Sings-the-Blues-macOS.zip",
       verified: "github.com/Sita-Sings-the-Blues/"
   name "Sita Sings the Blues"
-  desc "The movie 'Site Sings the Blues'"
+  desc "The movie 'Sita Sings the Blues'"
   homepage "https://github.com/Sita-Sings-the-Blues/App/"
 
   depends_on macos: ">= :monterey"
