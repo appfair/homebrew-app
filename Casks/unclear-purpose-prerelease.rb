@@ -5,7 +5,7 @@ cask "unclear-purpose-prerelease" do
   url "https://github.com/Unclear-Purpose/App/releases/download/#{version}/Unclear-Purpose-macOS.zip",
       verified: "github.com/Unclear-Purpose/"
   name "Unclear Purpose"
-  desc "Fork to make an App Fair App"
+  desc "An unclear app"
   homepage "https://github.com/Unclear-Purpose/App/"
 
   depends_on macos: ">= :monterey"
