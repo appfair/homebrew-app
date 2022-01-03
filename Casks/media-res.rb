@@ -1,6 +1,6 @@
-cask "media-res-prerelease" do
-  version "0.0.2"
-  sha256 "14fd9b9b4ff783e02ee54412c1ac75c28b7c03b9d357e2593c7d5274c9b22607"
+cask "media-res" do
+  version "0.0.4"
+  sha256 "5c21d5e5a0eb78237b8ffe7f764bb98ae29ed17198f4c0b80f59608dd6831184"
 
   url "https://github.com/Media-Res/App/releases/download/#{version}/Media-Res-macOS.zip",
       verified: "github.com/Media-Res/"
@@ -12,7 +12,7 @@ cask "media-res-prerelease" do
   
 
   app "Media Res.app", target: "App Fair/Media Res.app"
-  binary "#{appdir}/App Fair/Media Res.app/Contents/MacOS/Media Res", target: "media-res-prerelease"
+  binary "#{appdir}/App Fair/Media Res.app/Contents/MacOS/Media Res", target: "media-res"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Media Res.app"
