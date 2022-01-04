@@ -1,6 +1,6 @@
 cask "pan-opticon" do
-  version "0.2.12"
-  sha256 "b3de19d0d89802d52b44936aea33e6bf3c665a5afcb919456f93f41ec4454ade"
+  version "0.2.14"
+  sha256 "c8873e3b2e20388d39a5275618953c1c1ab18715dd95b0fcb205af8af7a6ddcb"
 
   url "https://github.com/Pan-Opticon/App/releases/download/#{version}/Pan-Opticon-macOS.zip",
       verified: "github.com/Pan-Opticon/"
