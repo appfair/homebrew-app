@@ -1,6 +1,6 @@
-cask "main-course-prerelease" do
-  version "0.0.1"
-  sha256 "6135acc8d6663bfdfaf557e76f81dd4ad3e40ec0e40942d9b116cb79fa98bb3f"
+cask "main-course" do
+  version "0.0.3"
+  sha256 "2d624138b1233e059d9bec2f1cc55d12645349a751ba1ec2d409baa02203f2b0"
 
   url "https://github.com/Main-Course/App/releases/download/#{version}/Main-Course-macOS.zip",
       verified: "github.com/Main-Course/"
@@ -12,7 +12,7 @@ cask "main-course-prerelease" do
   
 
   app "Main Course.app", target: "App Fair/Main Course.app"
-  binary "#{appdir}/App Fair/Main Course.app/Contents/MacOS/Main Course", target: "main-course-prerelease"
+  binary "#{appdir}/App Fair/Main Course.app/Contents/MacOS/Main Course", target: "main-course"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Main Course.app"
