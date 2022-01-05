@@ -1,6 +1,6 @@
-cask "unclear-purpose-prerelease" do
-  version "0.0.1"
-  sha256 "8dc122c43e66d68cafc663db06ef2eeb711e3cc4aac11bf0d0643f21d98dc833"
+cask "unclear-purpose" do
+  version "0.0.2"
+  sha256 "f77e7057302da90cf01cc73449f10e7fb36bb5e9dba6490d1ca6bde29cfb7d25"
 
   url "https://github.com/Unclear-Purpose/App/releases/download/#{version}/Unclear-Purpose-macOS.zip",
       verified: "github.com/Unclear-Purpose/"
@@ -12,7 +12,7 @@ cask "unclear-purpose-prerelease" do
   
 
   app "Unclear Purpose.app", target: "App Fair/Unclear Purpose.app"
-  binary "#{appdir}/App Fair/Unclear Purpose.app/Contents/MacOS/Unclear Purpose", target: "unclear-purpose-prerelease"
+  binary "#{appdir}/App Fair/Unclear Purpose.app/Contents/MacOS/Unclear Purpose", target: "unclear-purpose"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Unclear Purpose.app"
