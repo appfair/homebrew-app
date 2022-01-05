@@ -5,7 +5,7 @@ cask "fox-glove-prerelease" do
   url "https://github.com/Fox-Glove/App/releases/download/#{version}/Fox-Glove-macOS.zip",
       verified: "github.com/Fox-Glove/"
   name "Fox Glove"
-  desc "Browse the Web"
+  desc "There, I fixed the web for you. You're welcome."
   homepage "https://github.com/Fox-Glove/App/"
 
   depends_on macos: ">= :monterey"
