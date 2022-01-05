@@ -5,7 +5,7 @@ cask "yankee-swap" do
   url "https://github.com/Yankee-Swap/App/releases/download/#{version}/Yankee-Swap-macOS.zip",
       verified: "github.com/Yankee-Swap/"
   name "Yankee Swap"
-  desc "Social swap"
+  desc "Old-time horse trading"
   homepage "https://github.com/Yankee-Swap/App/"
 
   depends_on macos: ">= :monterey"
