@@ -1,6 +1,6 @@
-cask "ultra-light-prerelease" do
-  version "0.0.1"
-  sha256 "84063a698fc0137e91c8a2e2422be99faa213632b5bb2ab7804e29840147ce06"
+cask "ultra-light" do
+  version "0.0.2"
+  sha256 "e3366dccc91b620a92bc47a40050e4eb9c66a4d2fd64018a3c217f9d39a0df69"
 
   url "https://github.com/Ultra-Light/App/releases/download/#{version}/Ultra-Light-macOS.zip",
       verified: "github.com/Ultra-Light/"
@@ -12,7 +12,7 @@ cask "ultra-light-prerelease" do
   
 
   app "Ultra Light.app", target: "App Fair/Ultra Light.app"
-  binary "#{appdir}/App Fair/Ultra Light.app/Contents/MacOS/Ultra Light", target: "ultra-light-prerelease"
+  binary "#{appdir}/App Fair/Ultra Light.app/Contents/MacOS/Ultra Light", target: "ultra-light"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Ultra Light.app"
