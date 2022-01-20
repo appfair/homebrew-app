@@ -5,7 +5,7 @@ cask "name-sense-prerelease" do
   url "https://github.com/Name-Sense/App/releases/download/#{version}/Name-Sense-macOS.zip",
       verified: "github.com/Name-Sense/"
   name "Name Sense"
-  desc "Fork to make an App Fair App"
+  desc "A name picking app"
   homepage "https://github.com/Name-Sense/App/"
 
   depends_on macos: ">= :monterey"
