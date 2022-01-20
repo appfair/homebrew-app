@@ -1,6 +1,6 @@
 cask "ultra-light" do
-  version "0.0.3"
-  sha256 "61e4107e28b3e4046edc79289cb2a3f7df3c0887b88c23c64292a80e3a61c9c5"
+  version "0.0.5"
+  sha256 "9f1bdf5f21403856dc640ecfbc92a6b20fa4a40951ceb99dd1dce1cf6545fc8f"
 
   url "https://github.com/Ultra-Light/App/releases/download/#{version}/Ultra-Light-macOS.zip",
       verified: "github.com/Ultra-Light/"
