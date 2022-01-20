@@ -1,6 +1,6 @@
-cask "crazy-glue-prerelease" do
-  version "0.0.1"
-  sha256 "be451e94631255d8d71c4df7ed99b06175da6d1e57210fa57b3b79d6a7d16cb0"
+cask "crazy-glue" do
+  version "0.0.3"
+  sha256 "db6d1cd0fb1a6410fe566839908631778acf6f0e810123a3cbbae42952d815d4"
 
   url "https://github.com/Crazy-Glue/App/releases/download/#{version}/Crazy-Glue-macOS.zip",
       verified: "github.com/Crazy-Glue/"
@@ -12,7 +12,7 @@ cask "crazy-glue-prerelease" do
   
 
   app "Crazy Glue.app", target: "App Fair/Crazy Glue.app"
-  binary "#{appdir}/App Fair/Crazy Glue.app/Contents/MacOS/Crazy Glue", target: "crazy-glue-prerelease"
+  binary "#{appdir}/App Fair/Crazy Glue.app/Contents/MacOS/Crazy Glue", target: "crazy-glue"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Crazy Glue.app"
