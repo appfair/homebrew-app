@@ -1,6 +1,6 @@
-cask "festivus-pole-prerelease" do
-  version "0.0.1"
-  sha256 "7b6c55d8ddcc53c79b8d0d04240fe2aec462a14263f66bf283c0ebe7f8fe367d"
+cask "festivus-pole" do
+  version "0.0.2"
+  sha256 "ecd5792c0926dbd4f95c704cb5dac54ccd98c4b87fa082267ab794ec529e74b5"
 
   url "https://github.com/Festivus-Pole/App/releases/download/#{version}/Festivus-Pole-macOS.zip",
       verified: "github.com/Festivus-Pole/"
@@ -12,7 +12,7 @@ cask "festivus-pole-prerelease" do
   
 
   app "Festivus Pole.app", target: "App Fair/Festivus Pole.app"
-  binary "#{appdir}/App Fair/Festivus Pole.app/Contents/MacOS/Festivus Pole", target: "festivus-pole-prerelease"
+  binary "#{appdir}/App Fair/Festivus Pole.app/Contents/MacOS/Festivus Pole", target: "festivus-pole"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Festivus Pole.app"
