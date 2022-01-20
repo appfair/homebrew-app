@@ -1,6 +1,6 @@
-cask "fox-glove-prerelease" do
-  version "0.0.1"
-  sha256 "b6422a300d3f278b246a7e28f549a60c3d07e2c519f11f184af2809fb933f6b8"
+cask "fox-glove" do
+  version "0.0.2"
+  sha256 "6c0323b39d03a4dc5e294126f6a32cae74e51a07959be42b43f32b20d3018e49"
 
   url "https://github.com/Fox-Glove/App/releases/download/#{version}/Fox-Glove-macOS.zip",
       verified: "github.com/Fox-Glove/"
@@ -12,7 +12,7 @@ cask "fox-glove-prerelease" do
   
 
   app "Fox Glove.app", target: "App Fair/Fox Glove.app"
-  binary "#{appdir}/App Fair/Fox Glove.app/Contents/MacOS/Fox Glove", target: "fox-glove-prerelease"
+  binary "#{appdir}/App Fair/Fox Glove.app/Contents/MacOS/Fox Glove", target: "fox-glove"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Fox Glove.app"
