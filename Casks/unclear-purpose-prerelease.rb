@@ -1,6 +1,6 @@
 cask "unclear-purpose-prerelease" do
-  version "0.0.3"
-  sha256 "a616273d8cd060bf7124406dd12d0df5f42a17aa07f4b68ee558ca5dbbc52bbe"
+  version "0.0.4"
+  sha256 "abeb48203a7b702f2566e1963363675584d011fa303809cb1688535f241bb281"
 
   url "https://github.com/Unclear-Purpose/App/releases/download/#{version}/Unclear-Purpose-macOS.zip",
       verified: "github.com/Unclear-Purpose/"
