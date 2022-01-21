@@ -5,7 +5,7 @@ cask "ultra-light" do
   url "https://github.com/Ultra-Light/App/releases/download/#{version}/Ultra-Light-macOS.zip",
       verified: "github.com/Ultra-Light/"
   name "Ultra Light"
-  desc "Fork to make an App Fair App"
+  desc "A bit of lite reading"
   homepage "https://github.com/Ultra-Light/App/"
 
   depends_on macos: ">= :monterey"

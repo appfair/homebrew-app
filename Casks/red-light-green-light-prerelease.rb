@@ -5,7 +5,7 @@ cask "red-light-green-light-prerelease" do
   url "https://github.com/Red-Light-Green-Light/App/releases/download/#{version}/Red-Light-Green-Light-macOS.zip",
       verified: "github.com/Red-Light-Green-Light/"
   name "Red Light Green Light"
-  desc "오징어 게임"
+  desc "무궁화 꽃이 피었습니다"
   homepage "https://github.com/Red-Light-Green-Light/App/"
 
   depends_on macos: ">= :monterey"

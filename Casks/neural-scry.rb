@@ -5,7 +5,7 @@ cask "neural-scry" do
   url "https://github.com/Neural-Scry/App/releases/download/#{version}/Neural-Scry-macOS.zip",
       verified: "github.com/Neural-Scry/"
   name "Neural Scry"
-  desc "Look into the minds of others"
+  desc "Brain scanner"
   homepage "https://github.com/Neural-Scry/App/"
 
   depends_on macos: ">= :monterey"

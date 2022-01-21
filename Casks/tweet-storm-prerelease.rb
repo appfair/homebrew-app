@@ -5,7 +5,7 @@ cask "tweet-storm-prerelease" do
   url "https://github.com/Tweet-Storm/App/releases/download/#{version}/Tweet-Storm-macOS.zip",
       verified: "github.com/Tweet-Storm/"
   name "Tweet Storm"
-  desc "Fork to make an App Fair App"
+  desc "Unleash your inner dialog"
   homepage "https://github.com/Tweet-Storm/App/"
 
   depends_on macos: ">= :monterey"
