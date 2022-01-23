@@ -1,6 +1,6 @@
 cask "fox-glove-prerelease" do
-  version "0.0.3"
-  sha256 "fbbfbe617fcef2edc7673cc6f510434d4d25c7b0825b951c9d0bdc24d00f21e7"
+  version "0.0.4"
+  sha256 "b1c654805f85e21d51803ac45995486c60d4b7b9a8f5b4d648497f63fa5f42fa"
 
   url "https://github.com/Fox-Glove/App/releases/download/#{version}/Fox-Glove-macOS.zip",
       verified: "github.com/Fox-Glove/"
