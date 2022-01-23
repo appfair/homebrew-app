@@ -1,6 +1,6 @@
 cask "crazy-glue" do
-  version "0.0.3"
-  sha256 "db6d1cd0fb1a6410fe566839908631778acf6f0e810123a3cbbae42952d815d4"
+  version "0.0.4"
+  sha256 "bb88aca0dda7fed7a8fb7c8d0c292357e90d6326e1667f2dd8947f1b11f04eac"
 
   url "https://github.com/Crazy-Glue/App/releases/download/#{version}/Crazy-Glue-macOS.zip",
       verified: "github.com/Crazy-Glue/"

@@ -1,6 +1,6 @@
 cask "festivus-pole" do
-  version "0.0.2"
-  sha256 "ecd5792c0926dbd4f95c704cb5dac54ccd98c4b87fa082267ab794ec529e74b5"
+  version "0.0.3"
+  sha256 "4c85036bb30f16b52bb03b4781cd6c8c299a548ed568ee25eac226ef95829c4c"
 
   url "https://github.com/Festivus-Pole/App/releases/download/#{version}/Festivus-Pole-macOS.zip",
       verified: "github.com/Festivus-Pole/"
