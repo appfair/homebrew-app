@@ -1,6 +1,6 @@
 cask "story-points-prerelease" do
-  version "0.0.2"
-  sha256 "8644685eab767c4a3b1e5b87a1842fb5c9e2be621096eff204ef1cbf01b448e3"
+  version "0.0.4"
+  sha256 "8a26814c93c6b07aef3616dedbae4ef75b5222db74d708d1ad993700e50e232b"
 
   url "https://github.com/Story-Points/App/releases/download/#{version}/Story-Points-macOS.zip",
       verified: "github.com/Story-Points/"
