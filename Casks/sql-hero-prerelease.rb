@@ -1,6 +1,6 @@
 cask "sql-hero-prerelease" do
-  version "0.0.2"
-  sha256 "f811827f3620e20f2f9ea529e8b2df08b17c407a53dd5c2cf420009edb237c06"
+  version "0.0.3"
+  sha256 "2e43d29370ea2694ab7b1810903a8cca603505b2ed903ad8aa25f337cd385b9b"
 
   url "https://github.com/SQL-Hero/App/releases/download/#{version}/SQL-Hero-macOS.zip",
       verified: "github.com/SQL-Hero/"
