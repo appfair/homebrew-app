@@ -1,6 +1,6 @@
-cask "story-points-prerelease" do
-  version "0.0.4"
-  sha256 "8a26814c93c6b07aef3616dedbae4ef75b5222db74d708d1ad993700e50e232b"
+cask "story-points" do
+  version "0.0.6"
+  sha256 "e6b3bff7dd943fea8dfab2ee57d61a454bd8c4ddb2f443ed649cd93729352f8c"
 
   url "https://github.com/Story-Points/App/releases/download/#{version}/Story-Points-macOS.zip",
       verified: "github.com/Story-Points/"
@@ -12,7 +12,7 @@ cask "story-points-prerelease" do
   
 
   app "Story Points.app", target: "App Fair/Story Points.app"
-  binary "#{appdir}/App Fair/Story Points.app/Contents/MacOS/Story Points", target: "story-points-prerelease"
+  binary "#{appdir}/App Fair/Story Points.app/Contents/MacOS/Story Points", target: "story-points"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Story Points.app"
