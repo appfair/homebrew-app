@@ -1,6 +1,6 @@
 cask "yankee-swap" do
-  version "0.0.10"
-  sha256 "98775dc673535355b8b004569ea305a3b3d07534c77d6d1688600a027219f926"
+  version "0.0.11"
+  sha256 "939c72e726019d26d6d225dd5a6d3d099a7aa662e65b82ff91ce268acb5e40a7"
 
   url "https://github.com/Yankee-Swap/App/releases/download/#{version}/Yankee-Swap-macOS.zip",
       verified: "github.com/Yankee-Swap/"

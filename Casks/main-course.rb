@@ -1,6 +1,6 @@
 cask "main-course" do
-  version "0.0.12"
-  sha256 "f88a382f8694d1f4f95ea878cf8e26c3c031a73fc6fdc06085f0454122941fbb"
+  version "0.0.15"
+  sha256 "61d9aafa6bbde8fc57effa4a9bc46823453042a33d5ffccf2ee49da7cc32574f"
 
   url "https://github.com/Main-Course/App/releases/download/#{version}/Main-Course-macOS.zip",
       verified: "github.com/Main-Course/"
