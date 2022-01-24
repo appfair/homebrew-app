@@ -1,4 +1,4 @@
-cask "sql-hero-prerelease" do
+cask "sql-hero" do
   version "0.0.3"
   sha256 "2e43d29370ea2694ab7b1810903a8cca603505b2ed903ad8aa25f337cd385b9b"
 
@@ -12,7 +12,7 @@ cask "sql-hero-prerelease" do
   
 
   app "SQL Hero.app", target: "App Fair/SQL Hero.app"
-  binary "#{appdir}/App Fair/SQL Hero.app/Contents/MacOS/SQL Hero", target: "sql-hero-prerelease"
+  binary "#{appdir}/App Fair/SQL Hero.app/Contents/MacOS/SQL Hero", target: "sql-hero"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/SQL Hero.app"
