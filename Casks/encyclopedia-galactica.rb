@@ -1,6 +1,6 @@
 cask "encyclopedia-galactica" do
-  version "0.0.28"
-  sha256 "d8a46186b9090be3f98e84d7f0ae3cf4b62498a8b15639b1cb24df6e366cb64b"
+  version "0.0.32"
+  sha256 "628b345aa3bf7e9cc0dc778d9369aabc96219ad24ba8bc4ffc262a133a0d484a"
 
   url "https://github.com/Encyclopedia-Galactica/App/releases/download/#{version}/Encyclopedia-Galactica-macOS.zip",
       verified: "github.com/Encyclopedia-Galactica/"
