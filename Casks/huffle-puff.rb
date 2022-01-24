@@ -1,6 +1,6 @@
 cask "huffle-puff" do
-  version "0.0.5"
-  sha256 "cf5bb81bc15df2cf5a5e1d605dad6c544267b05892ad4f0463579408d664436f"
+  version "0.0.6"
+  sha256 "c2fc4b4785323ce82868401fdba3d63b962ee2a288ebb95a70c3b257ac81ba57"
 
   url "https://github.com/Huffle-Puff/App/releases/download/#{version}/Huffle-Puff-macOS.zip",
       verified: "github.com/Huffle-Puff/"
