@@ -1,6 +1,6 @@
 cask "sql-hero" do
-  version "0.0.3"
-  sha256 "2e43d29370ea2694ab7b1810903a8cca603505b2ed903ad8aa25f337cd385b9b"
+  version "0.0.6"
+  sha256 "20ef62f6febb035079bd03101d4b605d580dc79b71a2e59797d8360df27159f2"
 
   url "https://github.com/SQL-Hero/App/releases/download/#{version}/SQL-Hero-macOS.zip",
       verified: "github.com/SQL-Hero/"
