@@ -1,6 +1,6 @@
 cask "micro-vector" do
-  version "0.0.7"
-  sha256 "6ed81ca13fd6d8fde7b05456b52692f8407294b1ad883a97657b947d7db8e98a"
+  version "0.0.8"
+  sha256 "62d9c7a67c652dd3504c0574780869dcba80b5cae7617cb05790e0028d5fc482"
 
   url "https://github.com/Micro-Vector/App/releases/download/#{version}/Micro-Vector-macOS.zip",
       verified: "github.com/Micro-Vector/"
