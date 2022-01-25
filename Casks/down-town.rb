@@ -1,6 +1,6 @@
 cask "down-town" do
-  version "0.0.1"
-  sha256 "72c9f82a0270a49ae0154fd117b2dbcfcca3ec5516fc365711c80c12370ee277"
+  version "0.0.2"
+  sha256 "1bcead2873837c80638ba85b7a499780a75653467bc58ea3353558a940759132"
 
   url "https://github.com/Down-Town/App/releases/download/#{version}/Down-Town-macOS.zip",
       verified: "github.com/Down-Town/"
