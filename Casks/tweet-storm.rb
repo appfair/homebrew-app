@@ -1,4 +1,4 @@
-cask "tweet-storm-prerelease" do
+cask "tweet-storm" do
   version "0.0.4"
   sha256 "bf51807860cc8f3962b1e8adaa4790d38010b7ac3a05223646affeb411ff688e"
 
@@ -12,7 +12,7 @@ cask "tweet-storm-prerelease" do
   
 
   app "Tweet Storm.app", target: "App Fair/Tweet Storm.app"
-  binary "#{appdir}/App Fair/Tweet Storm.app/Contents/MacOS/Tweet Storm", target: "tweet-storm-prerelease"
+  binary "#{appdir}/App Fair/Tweet Storm.app/Contents/MacOS/Tweet Storm", target: "tweet-storm"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Tweet Storm.app"
