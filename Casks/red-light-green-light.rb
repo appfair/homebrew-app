@@ -1,6 +1,6 @@
 cask "red-light-green-light" do
-  version "0.0.11"
-  sha256 "9cb85649355c1b9c50c31bcffe489b6c60d2f7c02407239a4bbeef88d84232d7"
+  version "0.0.12"
+  sha256 "9074f553a7b0f8817aa76aa7cd302bb62af52c9fbca7ced06805ddfeab0526d6"
 
   url "https://github.com/Red-Light-Green-Light/App/releases/download/#{version}/Red-Light-Green-Light-macOS.zip",
       verified: "github.com/Red-Light-Green-Light/"
