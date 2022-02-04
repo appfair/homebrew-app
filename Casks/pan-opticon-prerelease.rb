@@ -1,4 +1,4 @@
-cask "pan-opticon" do
+cask "pan-opticon-prerelease" do
   version "0.2.22"
   sha256 "6f6765b12411f568825a8def3d0187ca12f2d3d1f9ce62edc8dc6d8c4151fce8"
 
@@ -12,7 +12,7 @@ cask "pan-opticon" do
   
 
   app "Pan Opticon.app", target: "App Fair/Pan Opticon.app"
-  binary "#{appdir}/App Fair/Pan Opticon.app/Contents/MacOS/Pan Opticon", target: "pan-opticon"
+  binary "#{appdir}/App Fair/Pan Opticon.app/Contents/MacOS/Pan Opticon", target: "pan-opticon-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Pan Opticon.app"

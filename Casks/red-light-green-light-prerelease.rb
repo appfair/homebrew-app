@@ -1,4 +1,4 @@
-cask "red-light-green-light" do
+cask "red-light-green-light-prerelease" do
   version "0.0.12"
   sha256 "9074f553a7b0f8817aa76aa7cd302bb62af52c9fbca7ced06805ddfeab0526d6"
 
@@ -12,7 +12,7 @@ cask "red-light-green-light" do
   
 
   app "Red Light Green Light.app", target: "App Fair/Red Light Green Light.app"
-  binary "#{appdir}/App Fair/Red Light Green Light.app/Contents/MacOS/Red Light Green Light", target: "red-light-green-light"
+  binary "#{appdir}/App Fair/Red Light Green Light.app/Contents/MacOS/Red Light Green Light", target: "red-light-green-light-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Red Light Green Light.app"

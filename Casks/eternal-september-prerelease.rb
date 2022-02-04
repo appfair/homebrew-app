@@ -1,4 +1,4 @@
-cask "eternal-september" do
+cask "eternal-september-prerelease" do
   version "0.0.32"
   sha256 "4251fc77459c4621f0b52014fa2f76b8e73996bd07e5da04df4550649f586bb1"
 
@@ -12,7 +12,7 @@ cask "eternal-september" do
   
 
   app "Eternal September.app", target: "App Fair/Eternal September.app"
-  binary "#{appdir}/App Fair/Eternal September.app/Contents/MacOS/Eternal September", target: "eternal-september"
+  binary "#{appdir}/App Fair/Eternal September.app/Contents/MacOS/Eternal September", target: "eternal-september-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Eternal September.app"

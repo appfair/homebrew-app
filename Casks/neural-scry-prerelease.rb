@@ -1,4 +1,4 @@
-cask "neural-scry" do
+cask "neural-scry-prerelease" do
   version "0.0.51"
   sha256 "b88e1400b49f2a9949e4acd5564bbb41415b3d244a309eee5f73ecbf20ff09ab"
 
@@ -12,7 +12,7 @@ cask "neural-scry" do
   
 
   app "Neural Scry.app", target: "App Fair/Neural Scry.app"
-  binary "#{appdir}/App Fair/Neural Scry.app/Contents/MacOS/Neural Scry", target: "neural-scry"
+  binary "#{appdir}/App Fair/Neural Scry.app/Contents/MacOS/Neural Scry", target: "neural-scry-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Neural Scry.app"

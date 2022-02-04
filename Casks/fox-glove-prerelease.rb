@@ -1,4 +1,4 @@
-cask "fox-glove" do
+cask "fox-glove-prerelease" do
   version "0.0.4"
   sha256 "b1c654805f85e21d51803ac45995486c60d4b7b9a8f5b4d648497f63fa5f42fa"
 
@@ -12,7 +12,7 @@ cask "fox-glove" do
   
 
   app "Fox Glove.app", target: "App Fair/Fox Glove.app"
-  binary "#{appdir}/App Fair/Fox Glove.app/Contents/MacOS/Fox Glove", target: "fox-glove"
+  binary "#{appdir}/App Fair/Fox Glove.app/Contents/MacOS/Fox Glove", target: "fox-glove-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Fox Glove.app"

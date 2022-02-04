@@ -1,4 +1,4 @@
-cask "unclear-purpose" do
+cask "unclear-purpose-prerelease" do
   version "0.0.5"
   sha256 "7e52be3c6558eddf0eab2c32d5069a48036241fc6e118570a6b2a0654fcd8a79"
 
@@ -12,7 +12,7 @@ cask "unclear-purpose" do
   
 
   app "Unclear Purpose.app", target: "App Fair/Unclear Purpose.app"
-  binary "#{appdir}/App Fair/Unclear Purpose.app/Contents/MacOS/Unclear Purpose", target: "unclear-purpose"
+  binary "#{appdir}/App Fair/Unclear Purpose.app/Contents/MacOS/Unclear Purpose", target: "unclear-purpose-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Unclear Purpose.app"

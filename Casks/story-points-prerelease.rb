@@ -1,4 +1,4 @@
-cask "story-points" do
+cask "story-points-prerelease" do
   version "0.0.6"
   sha256 "e6b3bff7dd943fea8dfab2ee57d61a454bd8c4ddb2f443ed649cd93729352f8c"
 
@@ -12,7 +12,7 @@ cask "story-points" do
   
 
   app "Story Points.app", target: "App Fair/Story Points.app"
-  binary "#{appdir}/App Fair/Story Points.app/Contents/MacOS/Story Points", target: "story-points"
+  binary "#{appdir}/App Fair/Story Points.app/Contents/MacOS/Story Points", target: "story-points-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Story Points.app"

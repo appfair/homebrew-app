@@ -1,4 +1,4 @@
-cask "yankee-swap" do
+cask "yankee-swap-prerelease" do
   version "0.0.11"
   sha256 "939c72e726019d26d6d225dd5a6d3d099a7aa662e65b82ff91ce268acb5e40a7"
 
@@ -12,7 +12,7 @@ cask "yankee-swap" do
   
 
   app "Yankee Swap.app", target: "App Fair/Yankee Swap.app"
-  binary "#{appdir}/App Fair/Yankee Swap.app/Contents/MacOS/Yankee Swap", target: "yankee-swap"
+  binary "#{appdir}/App Fair/Yankee Swap.app/Contents/MacOS/Yankee Swap", target: "yankee-swap-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Yankee Swap.app"
