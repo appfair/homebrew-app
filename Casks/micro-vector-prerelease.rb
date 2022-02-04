@@ -1,4 +1,4 @@
-cask "micro-vector" do
+cask "micro-vector-prerelease" do
   version "0.0.8"
   sha256 "62d9c7a67c652dd3504c0574780869dcba80b5cae7617cb05790e0028d5fc482"
 
@@ -12,7 +12,7 @@ cask "micro-vector" do
   
 
   app "Micro Vector.app", target: "App Fair/Micro Vector.app"
-  binary "#{appdir}/App Fair/Micro Vector.app/Contents/MacOS/Micro Vector", target: "micro-vector"
+  binary "#{appdir}/App Fair/Micro Vector.app/Contents/MacOS/Micro Vector", target: "micro-vector-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Micro Vector.app"

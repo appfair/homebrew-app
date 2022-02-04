@@ -1,4 +1,4 @@
-cask "crazy-glue" do
+cask "crazy-glue-prerelease" do
   version "0.0.4"
   sha256 "bb88aca0dda7fed7a8fb7c8d0c292357e90d6326e1667f2dd8947f1b11f04eac"
 
@@ -12,7 +12,7 @@ cask "crazy-glue" do
   
 
   app "Crazy Glue.app", target: "App Fair/Crazy Glue.app"
-  binary "#{appdir}/App Fair/Crazy Glue.app/Contents/MacOS/Crazy Glue", target: "crazy-glue"
+  binary "#{appdir}/App Fair/Crazy Glue.app/Contents/MacOS/Crazy Glue", target: "crazy-glue-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Crazy Glue.app"

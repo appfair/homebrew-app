@@ -1,4 +1,4 @@
-cask "visi-calc" do
+cask "visi-calc-prerelease" do
   version "0.0.37"
   sha256 "43841499d299d2bf7aa617cd14df2026c4f7c0a95be9d6c1eefe265e6a6883ca"
 
@@ -12,7 +12,7 @@ cask "visi-calc" do
   
 
   app "Visi Calc.app", target: "App Fair/Visi Calc.app"
-  binary "#{appdir}/App Fair/Visi Calc.app/Contents/MacOS/Visi Calc", target: "visi-calc"
+  binary "#{appdir}/App Fair/Visi Calc.app/Contents/MacOS/Visi Calc", target: "visi-calc-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Visi Calc.app"

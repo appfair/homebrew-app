@@ -1,4 +1,4 @@
-cask "media-res" do
+cask "media-res-prerelease" do
   version "0.0.17"
   sha256 "ec1eb7ae225c3031d06a93b032fbb4f5947a2eff6264446e3c3ebd452ac7faf0"
 
@@ -12,7 +12,7 @@ cask "media-res" do
   
 
   app "Media Res.app", target: "App Fair/Media Res.app"
-  binary "#{appdir}/App Fair/Media Res.app/Contents/MacOS/Media Res", target: "media-res"
+  binary "#{appdir}/App Fair/Media Res.app/Contents/MacOS/Media Res", target: "media-res-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Media Res.app"

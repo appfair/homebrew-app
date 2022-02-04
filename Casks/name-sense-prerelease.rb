@@ -1,4 +1,4 @@
-cask "name-sense" do
+cask "name-sense-prerelease" do
   version "0.0.23"
   sha256 "3a0868eb5cd9764612f10251023c8f91d76e3def4bbd62fe48b654e569aa7389"
 
@@ -12,7 +12,7 @@ cask "name-sense" do
   
 
   app "Name Sense.app", target: "App Fair/Name Sense.app"
-  binary "#{appdir}/App Fair/Name Sense.app/Contents/MacOS/Name Sense", target: "name-sense"
+  binary "#{appdir}/App Fair/Name Sense.app/Contents/MacOS/Name Sense", target: "name-sense-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Name Sense.app"

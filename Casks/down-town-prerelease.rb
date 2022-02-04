@@ -1,4 +1,4 @@
-cask "down-town" do
+cask "down-town-prerelease" do
   version "0.0.3"
   sha256 "100691a398de53e5ca21540f1dd272158c3c0307362bb61722aa536f24a4410d"
 
@@ -12,7 +12,7 @@ cask "down-town" do
   
 
   app "Down Town.app", target: "App Fair/Down Town.app"
-  binary "#{appdir}/App Fair/Down Town.app/Contents/MacOS/Down Town", target: "down-town"
+  binary "#{appdir}/App Fair/Down Town.app/Contents/MacOS/Down Town", target: "down-town-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Down Town.app"
