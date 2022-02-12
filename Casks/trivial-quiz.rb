@@ -1,6 +1,6 @@
-cask "trivial-quiz-prerelease" do
-  version "0.0.12"
-  sha256 "1c7941299efb9bb88ccb044dc7d2efab5eabf09b694eaeddb104af0ae4b62dd9"
+cask "trivial-quiz" do
+  version "0.0.13"
+  sha256 "71931e682cdb19ae8becc9bcde5f4cc28cd8d5bc5a5e8887f4e16c6148f2ab88"
 
   url "https://github.com/Trivial-Quiz/App/releases/download/#{version}/Trivial-Quiz-macOS.zip",
       verified: "github.com/Trivial-Quiz/"
@@ -12,7 +12,7 @@ cask "trivial-quiz-prerelease" do
   
 
   app "Trivial Quiz.app", target: "App Fair/Trivial Quiz.app"
-  binary "#{appdir}/App Fair/Trivial Quiz.app/Contents/MacOS/Trivial Quiz", target: "trivial-quiz-prerelease"
+  binary "#{appdir}/App Fair/Trivial Quiz.app/Contents/MacOS/Trivial Quiz", target: "trivial-quiz"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Trivial Quiz.app"
