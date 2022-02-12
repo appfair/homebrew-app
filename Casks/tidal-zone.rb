@@ -1,6 +1,6 @@
 cask "tidal-zone" do
-  version "0.0.14"
-  sha256 "da36bf842dcf33e25778ba7671494043ee09375912a0d5a15d877b8a3a576ae6"
+  version "0.0.20"
+  sha256 "db951840a4f86b2e0589cb1b41b2c8695570af19f0af03dafb5d79af5fa2734f"
 
   url "https://github.com/Tidal-Zone/App/releases/download/#{version}/Tidal-Zone-macOS.zip",
       verified: "github.com/Tidal-Zone/"

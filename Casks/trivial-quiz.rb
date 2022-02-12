@@ -1,6 +1,6 @@
 cask "trivial-quiz" do
-  version "0.0.13"
-  sha256 "71931e682cdb19ae8becc9bcde5f4cc28cd8d5bc5a5e8887f4e16c6148f2ab88"
+  version "0.0.16"
+  sha256 "8eb419e580e42211fd47a3e67e62f2b6a80f0e191695a3891451e49530d203f4"
 
   url "https://github.com/Trivial-Quiz/App/releases/download/#{version}/Trivial-Quiz-macOS.zip",
       verified: "github.com/Trivial-Quiz/"
