@@ -1,6 +1,6 @@
-cask "name-sense-prerelease" do
-  version "0.0.23"
-  sha256 "3a0868eb5cd9764612f10251023c8f91d76e3def4bbd62fe48b654e569aa7389"
+cask "name-sense" do
+  version "0.0.24"
+  sha256 "44460c1912eb428c3c4a1d45791c1fe51d060489640854c73a420b07c4e1f6d8"
 
   url "https://github.com/Name-Sense/App/releases/download/#{version}/Name-Sense-macOS.zip",
       verified: "github.com/Name-Sense/"
@@ -12,7 +12,7 @@ cask "name-sense-prerelease" do
   
 
   app "Name Sense.app", target: "App Fair/Name Sense.app"
-  binary "#{appdir}/App Fair/Name Sense.app/Contents/MacOS/Name Sense", target: "name-sense-prerelease"
+  binary "#{appdir}/App Fair/Name Sense.app/Contents/MacOS/Name Sense", target: "name-sense"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Name Sense.app"
