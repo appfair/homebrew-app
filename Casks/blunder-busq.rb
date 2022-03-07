@@ -1,6 +1,6 @@
-cask "blunder-busq-prerelease" do
-  version "0.0.1"
-  sha256 "1c900e92a1e89035c5d2b5ef8f2794da2b44ca85b0084505438046421e690f39"
+cask "blunder-busq" do
+  version "0.0.3"
+  sha256 "7c8391591ab28819464262e077c3d84b5f4b6ee6fabbaec21dce2dbda4da8efa"
 
   url "https://github.com/Blunder-Busq/App/releases/download/#{version}/Blunder-Busq-macOS.zip",
       verified: "github.com/Blunder-Busq/"
@@ -12,7 +12,7 @@ cask "blunder-busq-prerelease" do
   
 
   app "Blunder Busq.app", target: "App Fair/Blunder Busq.app"
-  binary "#{appdir}/App Fair/Blunder Busq.app/Contents/MacOS/Blunder Busq", target: "blunder-busq-prerelease"
+  binary "#{appdir}/App Fair/Blunder Busq.app/Contents/MacOS/Blunder Busq", target: "blunder-busq"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Blunder Busq.app"
