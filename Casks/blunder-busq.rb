@@ -1,6 +1,6 @@
 cask "blunder-busq" do
-  version "0.0.14"
-  sha256 "2fd88517ab374305b935c3291f67bcafcc9f9167f9a473df4b83f442ee3093b4"
+  version "0.0.15"
+  sha256 "44fef9492aae62ec23fa092c1134fde0e0b887f175942695833251cfb11975b8"
 
   url "https://github.com/Blunder-Busq/App/releases/download/#{version}/Blunder-Busq-macOS.zip",
       verified: "github.com/Blunder-Busq/"
