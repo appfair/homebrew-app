@@ -1,6 +1,6 @@
-cask "net-skip-prerelease" do
-  version "0.0.5"
-  sha256 "7dc866411eeff952367d2860843b636ef6ac8315e17886e454f59f5216b6fe8f"
+cask "net-skip" do
+  version "0.0.9"
+  sha256 "ae34ac760dc4d4ba09ec502cd18899d8a43ef18efcb7ac9cf06b26cae3a42a65"
 
   url "https://github.com/Net-Skip/App/releases/download/#{version}/Net-Skip-macOS.zip",
       verified: "github.com/Net-Skip/"
@@ -12,7 +12,7 @@ cask "net-skip-prerelease" do
   
 
   app "Net Skip.app", target: "App Fair/Net Skip.app"
-  binary "#{appdir}/App Fair/Net Skip.app/Contents/MacOS/Net Skip", target: "net-skip-prerelease"
+  binary "#{appdir}/App Fair/Net Skip.app/Contents/MacOS/Net Skip", target: "net-skip"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Net Skip.app"
