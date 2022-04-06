@@ -1,6 +1,6 @@
 cask "hex-loupe" do
-  version "0.0.17"
-  sha256 "b9ac483203abebbaf59ae5daa7fba09b640deba7054dcb3857d4c8e242ed88a0"
+  version "0.0.19"
+  sha256 "a9c42456620c7e1bde3d434d2ccb2d99084168bfa235b22d0a62cc32a916e486"
 
   url "https://github.com/Hex-Loupe/App/releases/download/#{version}/Hex-Loupe-macOS.zip",
       verified: "github.com/Hex-Loupe/"
