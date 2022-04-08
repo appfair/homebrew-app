@@ -1,6 +1,6 @@
 cask "sita-sings-the-blues" do
-  version "0.0.48"
-  sha256 "62f178fe9fb7a519116edbaefa3916afc0731b990814b7c011486f00e7921913"
+  version "0.0.49"
+  sha256 "4f1c7a3e65440f41b2e9a8f8b4d5774dcf52e4566f35bdce470fca0c63199247"
 
   url "https://github.com/Sita-Sings-the-Blues/App/releases/download/#{version}/Sita-Sings-the-Blues-macOS.zip",
       verified: "github.com/Sita-Sings-the-Blues/"
