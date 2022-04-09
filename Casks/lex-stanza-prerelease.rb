@@ -1,6 +1,6 @@
-cask "lex-stanza" do
-  version "0.0.8"
-  sha256 "fe3564c7a84daadcd50103bad400fe1a6117c621bbd6fb71393852a896f15aeb"
+cask "lex-stanza-prerelease" do
+  version "0.0.9"
+  sha256 "f9988d007d4c56a52e049dccf2dd14faae6ba517ddf69b6d34450f9a2d9ba345"
 
   url "https://github.com/Lex-Stanza/App/releases/download/#{version}/Lex-Stanza-macOS.zip",
       verified: "github.com/Lex-Stanza/"
@@ -12,7 +12,7 @@ cask "lex-stanza" do
   
 
   app "Lex Stanza.app", target: "App Fair/Lex Stanza.app"
-  binary "#{appdir}/App Fair/Lex Stanza.app/Contents/MacOS/Lex Stanza", target: "lex-stanza"
+  binary "#{appdir}/App Fair/Lex Stanza.app/Contents/MacOS/Lex Stanza", target: "lex-stanza-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Lex Stanza.app"
