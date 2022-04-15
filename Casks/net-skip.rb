@@ -1,6 +1,6 @@
 cask "net-skip" do
-  version "0.0.30"
-  sha256 "185f72b1616d6336505a898d0dbf41a18f201bdafc4172bb229513f50332715f"
+  version "0.0.31"
+  sha256 "24e1c0a8e4643db1515c965e99848b101b24c92aba11e68cdb0d7c1f901b5248"
 
   url "https://github.com/Net-Skip/App/releases/download/#{version}/Net-Skip-macOS.zip",
       verified: "github.com/Net-Skip/"
