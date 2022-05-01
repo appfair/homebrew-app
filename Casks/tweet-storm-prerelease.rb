@@ -1,6 +1,6 @@
 cask "tweet-storm-prerelease" do
-  version "0.0.7"
-  sha256 "3ab711fbb0febe18ac5b91cf86bc72bff950ed3d537405c0a234ab9931e1b57a"
+  version "0.0.11"
+  sha256 "83adb7762f1f07d7ff55c943c269ab4a9342f222d1373ba06e8e62d94ba24971"
 
   url "https://github.com/Tweet-Storm/App/releases/download/#{version}/Tweet-Storm-macOS.zip",
       verified: "github.com/Tweet-Storm/"
