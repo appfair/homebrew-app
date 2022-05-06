@@ -1,4 +1,4 @@
-cask "net-skip" do
+cask "net-skip-prerelease" do
   version "0.0.38"
   sha256 "467156dcf264dfdf5474c7fc8069cac3f528c8d18d7e5883a0f9b2e34524981d"
 
@@ -12,7 +12,7 @@ cask "net-skip" do
   
 
   app "Net Skip.app", target: "App Fair/Net Skip.app"
-  binary "#{appdir}/App Fair/Net Skip.app/Contents/MacOS/Net Skip", target: "net-skip"
+  binary "#{appdir}/App Fair/Net Skip.app/Contents/MacOS/Net Skip", target: "net-skip-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Net Skip.app"

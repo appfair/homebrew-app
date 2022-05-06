@@ -1,4 +1,4 @@
-cask "hex-loupe" do
+cask "hex-loupe-prerelease" do
   version "0.0.19"
   sha256 "a9c42456620c7e1bde3d434d2ccb2d99084168bfa235b22d0a62cc32a916e486"
 
@@ -12,7 +12,7 @@ cask "hex-loupe" do
   
 
   app "Hex Loupe.app", target: "App Fair/Hex Loupe.app"
-  binary "#{appdir}/App Fair/Hex Loupe.app/Contents/MacOS/Hex Loupe", target: "hex-loupe"
+  binary "#{appdir}/App Fair/Hex Loupe.app/Contents/MacOS/Hex Loupe", target: "hex-loupe-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Hex Loupe.app"
