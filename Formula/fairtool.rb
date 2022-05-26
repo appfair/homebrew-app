@@ -13,7 +13,9 @@ class Fairtool < Formula
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "debug"
-    bin.install ".build/release/fairtool"
+    bin.install ".build/debug/fairtool"
+    #system "swift", "build", "--disable-sandbox", "-c", "release"
+    #bin.install ".build/release/fairtool"
   end
 
   test do
