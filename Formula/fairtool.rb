@@ -13,10 +13,12 @@ class Fairtool < Formula
   uses_from_macos "swift"
 
   def install
-    # system "swift", "build", "--disable-sandbox", "-c", "debug", "--product", "fairtool"
-    # bin.install ".build/debug/fairtool"
-    system "swift", "build", "--disable-sandbox", "-c", "release", "--product", "fairtool", "--verbose"
-    bin.install ".build/release/fairtool"
+    # release build crashes swift 5.6.1 on macOS with the error:
+    # "(FragmentOffset >= OffsetInBits && "overlapping or duplicate fragments")"
+    # system "swift", "build", "--disable-sandbox", "-c", "release", "--product", "fairtool", "--verbose"
+    # bin.install ".build/release/fairtool"
+    system "swift", "build", "--disable-sandbox", "-c", "debug", "--product", "fairtool"
+    bin.install ".build/debug/fairtool"
   end
 
   test do
