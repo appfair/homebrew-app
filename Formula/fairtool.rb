@@ -1,5 +1,5 @@
 class Fairtool < Formula
-  desc "Tool for managing a fair-ground"
+  desc "Manage a fair-ground ecosystem of apps."
   version "latest"
   homepage "https://fair-ground.org"
   url "https://github.com/fair-ground/Fair.git", branch: "main"
@@ -10,7 +10,7 @@ class Fairtool < Formula
   uses_from_macos "swift"
 
   def install
-    system "swift", "build", "--configuration", "release"
+    system "swift", "build", "--disable-sandbox", "--configuration", "release"
     bin.install ".build/release/fairtool"
   end
   
