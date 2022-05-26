@@ -12,10 +12,10 @@ class Fairtool < Formula
   uses_from_macos "swift"
 
   def install
-    system "swift", "build", "--disable-sandbox", "-c", "debug"
-    bin.install ".build/debug/fairtool"
-    # system "swift", "build", "--disable-sandbox", "-c", "release"
-    # bin.install ".build/release/fairtool"
+    # system "swift", "build", "--disable-sandbox", "-c", "debug"
+    # bin.install ".build/debug/fairtool"
+    system "swift", "build", "--disable-sandbox", "-c", "release"
+    bin.install ".build/release/fairtool"
   end
 
   test do
