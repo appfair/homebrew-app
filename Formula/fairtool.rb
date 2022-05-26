@@ -8,13 +8,14 @@ class Fairtool < Formula
   license "AGPL-3.0-or-later"
   head "https://github.com/fair-ground/Fair.git", branch: "main"
 
+  depends_on xcode: ["13.1", :build]
   depends_on "swift"
   uses_from_macos "swift"
 
   def install
-    # system "swift", "build", "--disable-sandbox", "-c", "debug"
+    # system "swift", "build", "--disable-sandbox", "-c", "debug", "--product", "fairtool"
     # bin.install ".build/debug/fairtool"
-    system "swift", "build", "--disable-sandbox", "-c", "release"
+    system "swift", "build", "--disable-sandbox", "-c", "release", "--product", "fairtool"
     bin.install ".build/release/fairtool"
   end
 
