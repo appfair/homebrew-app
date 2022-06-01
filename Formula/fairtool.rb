@@ -19,6 +19,6 @@ class Fairtool < Formula
   end
 
   test do
-    assert_match ".*Welcome.*", shell_output("#{bin}/fairtool welcome")
+    assert_match "Welcome", shell_output("#{bin}/fairtool welcome")
   end
 end
