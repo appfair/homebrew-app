@@ -10,9 +10,10 @@ class Fairtool < Formula
   uses_from_macos "swift", since: :big_sur # Swift 5.5.0
 
   def install
-    system "swift", "build", "--product", "fairtool", "-c", "release", \
+    # debug is used rather than release to speed up builds
+    system "swift", "build", "--product", "fairtool", "-c", "debug", \
       "--disable-sandbox", "-Xswiftc", "-cross-module-optimization"
-    bin.install ".build/release/fairtool"
+    bin.install ".build/debug/fairtool"
   end
 
   test do
