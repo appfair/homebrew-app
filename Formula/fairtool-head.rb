@@ -1,4 +1,4 @@
-class Fairtool < Formula
+class FairtoolHead < Formula
   desc "Manage an ecosystem of ipa app sources"
   homepage "https://fair-ground.org"
   url "https://github.com/fair-ground/Fair.git", branch: "main"
