@@ -7,6 +7,7 @@ class FairtoolHead < Formula
   head "https://github.com/fair-ground/Fair.git", branch: "main"
 
   depends_on "swift"
+  conflicts_with "fairtool", because: "either fairtool-head or fairtool can be installed"
   uses_from_macos "swift", since: :big_sur # Swift 5.5.0
 
   def install
