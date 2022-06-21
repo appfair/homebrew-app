@@ -1,7 +1,8 @@
 class Fairtool < Formula
   desc "Manage an ecosystem of ipa app sources"
-  homepage "https://github.com/fair-ground/Fair"
-  url "https://github.com/fair-ground/Fair/archive/0.3.12.tar.gz"
+  homepage "https://fair-ground.org"
+  url "https://github.com/fair-ground/Fair.git", branch: "main"
+  version "latest"
   license "AGPL-3.0"
   head "https://github.com/fair-ground/Fair.git", branch: "main"
 
