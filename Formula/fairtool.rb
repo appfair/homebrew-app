@@ -9,23 +9,14 @@ class Fairtool < Formula
   uses_from_macos "swift"
 
   def install
-    args = [
-      "-c",
-      "release",
-      "-Xswiftc",
-      "-cross-module-optimization",
-      "--disable-sandbox",
-    ]
-
     if OS.mac?
-      args << "--arch"
-      args << "x86_64"
-      args << "--arch"
-      args << "arm64"
+      # build a univeral binary on macOS
+      system "swift", "build", "--product", "fairtool", "-c", "release", "-Xswiftc", "-cross-module-optimization", "--disable-sandbox", "--arch", "x86_64", "--arch", "arm64"
+      bin.install ".build/apple/Products/Release/fairtool"
+    else
+      system "swift", "build", "--product", "fairtool", "-c", "release", "-Xswiftc", "-cross-module-optimization", "--disable-sandbox"
+      bin.install ".build/release/fairtool"
     end
-
-    system "swift", "build", "--product", "fairtool", *args
-    bin.install ".build/release/fairtool"
   end
 
   test do
