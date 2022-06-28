@@ -1,7 +1,7 @@
 class Fairtool < Formula
   desc "Manage an ecosystem of ipa app sources"
   homepage "https://github.com/fair-ground/Fair"
-  url "https://github.com/fair-ground/Fair.git", tag: "0.4.16", revision: "017cb7f97a6eef0a4083c01ccb7dd4f0a7cf74a1"
+  url "https://github.com/fair-ground/Fair.git", tag: "0.4.17", revision: "8664605f744236b1d0202218f99b45ed382a77b3"
   license "AGPL-3.0"
 
   head "https://github.com/fair-ground/Fair.git", branch: "main"
@@ -11,10 +11,12 @@ class Fairtool < Formula
   def install
     if OS.mac?
       # build a univeral binary on macOS
-      system "swift", "build", "--product", "fairtool", "-c", "release", "-Xswiftc", "-cross-module-optimization", "--disable-sandbox", "--arch", "x86_64", "--arch", "arm64"
+      system "swift", "build", "--product", "fairtool", "-c", "release", "-Xswiftc", "-cross-module-optimization",
+             "--disable-sandbox", "--arch", "x86_64", "--arch", "arm64"
       bin.install ".build/apple/Products/Release/fairtool"
     else
-      system "swift", "build", "--product", "fairtool", "-c", "release", "-Xswiftc", "-cross-module-optimization", "--disable-sandbox"
+      system "swift", "build", "--product", "fairtool", "-c", "release", "-Xswiftc", "-cross-module-optimization",
+             "--disable-sandbox"
       bin.install ".build/release/fairtool"
     end
   end
