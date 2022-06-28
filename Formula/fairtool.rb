@@ -13,12 +13,25 @@ class Fairtool < Formula
 
   head "https://github.com/fair-ground/Fair.git", branch: "main"
 
-  depends_on "swift"
-  uses_from_macos "swift", since: :big_sur # Swift 5.5.0
+  uses_from_macos "swift"
 
   def install
-    system "swift", "build", "--product", "fairtool", "-c", "release", \
-           "--disable-sandbox", "-Xswiftc", "-cross-module-optimization"
+    args = [
+      "-c",
+      "release",
+      "-Xswiftc",
+      "-cross-module-optimization",
+      "--disable-sandbox",
+    ]
+
+    if OS.mac?
+      args << "--arch"
+      args << "x86_64"
+      args << "--arch"
+      args << "arm64"
+    end
+
+    system "swift", "build", "--product", "fairtool", *args
     bin.install ".build/release/fairtool"
   end
 
