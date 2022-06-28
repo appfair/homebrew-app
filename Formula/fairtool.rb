@@ -1,7 +1,7 @@
 class Fairtool < Formula
   desc "Manage an ecosystem of ipa app sources"
   homepage "https://github.com/fair-ground/Fair"
-  url "https://github.com/fair-ground/Fair.git", tag: "0.4.19", revision: "14619e37628b6e0ded53ad48155a873e82ab7f9a"
+  url "https://github.com/fair-ground/Fair.git", tag: "0.4.20", revision: "4417976b5f79c648914ca23aeff2cba2fc1d1372"
   license "AGPL-3.0"
 
   head "https://github.com/fair-ground/Fair.git", branch: "main"
@@ -10,8 +10,8 @@ class Fairtool < Formula
 
   def install
     system "swift", "build", "--product", "fairtool", "-c", "release",
-      "-Xswiftc", "-cross-module-optimization", "--disable-sandbox",
-      *(ENV["HOMEBREW_FAIRTOOL_ARCH"] ? ["--arch", ENV["HOMEBREW_FAIRTOOL_ARCH"]] : [])
+           "-Xswiftc", "-cross-module-optimization", "--disable-sandbox",
+           *(ENV["HOMEBREW_FAIRTOOL_ARCH"] ? ["--arch", ENV["HOMEBREW_FAIRTOOL_ARCH"]] : [])
     bin.install ".build/release/fairtool"
   end
 
