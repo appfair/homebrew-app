@@ -1,4 +1,4 @@
-cask "lottie-motion-prerelease" do
+cask "lottie-motion" do
   version "0.0.87"
   sha256 "810cb81f8d0a6e27e5b3668960cc39cd79afb894e77e42dd9e7bb45618d41034"
 
@@ -12,7 +12,7 @@ cask "lottie-motion-prerelease" do
   
 
   app "Lottie Motion.app", target: "App Fair/Lottie Motion.app"
-  binary "#{appdir}/App Fair/Lottie Motion.app/Contents/MacOS/Lottie Motion", target: "lottie-motion-prerelease"
+  binary "#{appdir}/App Fair/Lottie Motion.app/Contents/MacOS/Lottie Motion", target: "lottie-motion"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Lottie Motion.app"
