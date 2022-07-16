@@ -19,10 +19,13 @@ cask "visi-calc-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Visi-Calc",
-    "~/Library/Containers/app.Visi-Calc",
-    "~/Library/Preferences/app.Visi-Calc.plist",
-    "~/Library/Application Scripts/app.Visi-Calc",
-    "~/Library/Saved Application State/app.Visi-Calc.savedState",
+    ~/Library/Application Scripts/app.Visi-Calc,
+    ~/Library/Application Support/app.Visi-Calc,
+    ~/Library/Caches/app.Visi-Calc,
+    ~/Library/Containers/app.Visi-Calc,
+    ~/Library/HTTPStorages/app.Visi-Calc,
+    ~/Library/HTTPStorages/app.Visi-Calc.binarycookies,
+    ~/Library/Preferences/app.Visi-Calc.plist,
+    ~/Library/Saved Application State/app.Visi-Calc.savedState
   ]
 end

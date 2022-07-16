@@ -19,10 +19,13 @@ cask "blunder-busq" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Blunder-Busq",
-    "~/Library/Containers/app.Blunder-Busq",
-    "~/Library/Preferences/app.Blunder-Busq.plist",
-    "~/Library/Application Scripts/app.Blunder-Busq",
-    "~/Library/Saved Application State/app.Blunder-Busq.savedState",
+    ~/Library/Application Scripts/app.Blunder-Busq,
+    ~/Library/Application Support/app.Blunder-Busq,
+    ~/Library/Caches/app.Blunder-Busq,
+    ~/Library/Containers/app.Blunder-Busq,
+    ~/Library/HTTPStorages/app.Blunder-Busq,
+    ~/Library/HTTPStorages/app.Blunder-Busq.binarycookies,
+    ~/Library/Preferences/app.Blunder-Busq.plist,
+    ~/Library/Saved Application State/app.Blunder-Busq.savedState
   ]
 end

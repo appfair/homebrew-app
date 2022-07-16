@@ -19,10 +19,13 @@ cask "fox-glove-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Fox-Glove",
-    "~/Library/Containers/app.Fox-Glove",
-    "~/Library/Preferences/app.Fox-Glove.plist",
-    "~/Library/Application Scripts/app.Fox-Glove",
-    "~/Library/Saved Application State/app.Fox-Glove.savedState",
+    ~/Library/Application Scripts/app.Fox-Glove,
+    ~/Library/Application Support/app.Fox-Glove,
+    ~/Library/Caches/app.Fox-Glove,
+    ~/Library/Containers/app.Fox-Glove,
+    ~/Library/HTTPStorages/app.Fox-Glove,
+    ~/Library/HTTPStorages/app.Fox-Glove.binarycookies,
+    ~/Library/Preferences/app.Fox-Glove.plist,
+    ~/Library/Saved Application State/app.Fox-Glove.savedState
   ]
 end

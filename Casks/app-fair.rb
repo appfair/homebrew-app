@@ -19,10 +19,13 @@ cask "app-fair" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.App-Fair",
-    "~/Library/Containers/app.App-Fair",
-    "~/Library/Preferences/app.App-Fair.plist",
-    "~/Library/Application Scripts/app.App-Fair",
-    "~/Library/Saved Application State/app.App-Fair.savedState",
+    ~/Library/Application Scripts/app.App-Fair,
+    ~/Library/Application Support/app.App-Fair,
+    ~/Library/Caches/app.App-Fair,
+    ~/Library/Containers/app.App-Fair,
+    ~/Library/HTTPStorages/app.App-Fair,
+    ~/Library/HTTPStorages/app.App-Fair.binarycookies,
+    ~/Library/Preferences/app.App-Fair.plist,
+    ~/Library/Saved Application State/app.App-Fair.savedState
   ]
 end

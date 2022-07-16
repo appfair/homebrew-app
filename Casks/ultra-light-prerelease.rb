@@ -19,10 +19,13 @@ cask "ultra-light-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Ultra-Light",
-    "~/Library/Containers/app.Ultra-Light",
-    "~/Library/Preferences/app.Ultra-Light.plist",
-    "~/Library/Application Scripts/app.Ultra-Light",
-    "~/Library/Saved Application State/app.Ultra-Light.savedState",
+    ~/Library/Application Scripts/app.Ultra-Light,
+    ~/Library/Application Support/app.Ultra-Light,
+    ~/Library/Caches/app.Ultra-Light,
+    ~/Library/Containers/app.Ultra-Light,
+    ~/Library/HTTPStorages/app.Ultra-Light,
+    ~/Library/HTTPStorages/app.Ultra-Light.binarycookies,
+    ~/Library/Preferences/app.Ultra-Light.plist,
+    ~/Library/Saved Application State/app.Ultra-Light.savedState
   ]
 end

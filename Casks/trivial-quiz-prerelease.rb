@@ -19,10 +19,13 @@ cask "trivial-quiz-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Trivial-Quiz",
-    "~/Library/Containers/app.Trivial-Quiz",
-    "~/Library/Preferences/app.Trivial-Quiz.plist",
-    "~/Library/Application Scripts/app.Trivial-Quiz",
-    "~/Library/Saved Application State/app.Trivial-Quiz.savedState",
+    ~/Library/Application Scripts/app.Trivial-Quiz,
+    ~/Library/Application Support/app.Trivial-Quiz,
+    ~/Library/Caches/app.Trivial-Quiz,
+    ~/Library/Containers/app.Trivial-Quiz,
+    ~/Library/HTTPStorages/app.Trivial-Quiz,
+    ~/Library/HTTPStorages/app.Trivial-Quiz.binarycookies,
+    ~/Library/Preferences/app.Trivial-Quiz.plist,
+    ~/Library/Saved Application State/app.Trivial-Quiz.savedState
   ]
 end

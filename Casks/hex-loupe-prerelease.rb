@@ -19,10 +19,13 @@ cask "hex-loupe-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Hex-Loupe",
-    "~/Library/Containers/app.Hex-Loupe",
-    "~/Library/Preferences/app.Hex-Loupe.plist",
-    "~/Library/Application Scripts/app.Hex-Loupe",
-    "~/Library/Saved Application State/app.Hex-Loupe.savedState",
+    ~/Library/Application Scripts/app.Hex-Loupe,
+    ~/Library/Application Support/app.Hex-Loupe,
+    ~/Library/Caches/app.Hex-Loupe,
+    ~/Library/Containers/app.Hex-Loupe,
+    ~/Library/HTTPStorages/app.Hex-Loupe,
+    ~/Library/HTTPStorages/app.Hex-Loupe.binarycookies,
+    ~/Library/Preferences/app.Hex-Loupe.plist,
+    ~/Library/Saved Application State/app.Hex-Loupe.savedState
   ]
 end

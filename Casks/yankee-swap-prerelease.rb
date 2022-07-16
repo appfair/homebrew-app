@@ -19,10 +19,13 @@ cask "yankee-swap-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Yankee-Swap",
-    "~/Library/Containers/app.Yankee-Swap",
-    "~/Library/Preferences/app.Yankee-Swap.plist",
-    "~/Library/Application Scripts/app.Yankee-Swap",
-    "~/Library/Saved Application State/app.Yankee-Swap.savedState",
+    ~/Library/Application Scripts/app.Yankee-Swap,
+    ~/Library/Application Support/app.Yankee-Swap,
+    ~/Library/Caches/app.Yankee-Swap,
+    ~/Library/Containers/app.Yankee-Swap,
+    ~/Library/HTTPStorages/app.Yankee-Swap,
+    ~/Library/HTTPStorages/app.Yankee-Swap.binarycookies,
+    ~/Library/Preferences/app.Yankee-Swap.plist,
+    ~/Library/Saved Application State/app.Yankee-Swap.savedState
   ]
 end

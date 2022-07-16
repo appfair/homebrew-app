@@ -19,10 +19,13 @@ cask "festivus-pole-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Festivus-Pole",
-    "~/Library/Containers/app.Festivus-Pole",
-    "~/Library/Preferences/app.Festivus-Pole.plist",
-    "~/Library/Application Scripts/app.Festivus-Pole",
-    "~/Library/Saved Application State/app.Festivus-Pole.savedState",
+    ~/Library/Application Scripts/app.Festivus-Pole,
+    ~/Library/Application Support/app.Festivus-Pole,
+    ~/Library/Caches/app.Festivus-Pole,
+    ~/Library/Containers/app.Festivus-Pole,
+    ~/Library/HTTPStorages/app.Festivus-Pole,
+    ~/Library/HTTPStorages/app.Festivus-Pole.binarycookies,
+    ~/Library/Preferences/app.Festivus-Pole.plist,
+    ~/Library/Saved Application State/app.Festivus-Pole.savedState
   ]
 end

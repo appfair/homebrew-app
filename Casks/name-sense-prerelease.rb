@@ -19,10 +19,13 @@ cask "name-sense-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Name-Sense",
-    "~/Library/Containers/app.Name-Sense",
-    "~/Library/Preferences/app.Name-Sense.plist",
-    "~/Library/Application Scripts/app.Name-Sense",
-    "~/Library/Saved Application State/app.Name-Sense.savedState",
+    ~/Library/Application Scripts/app.Name-Sense,
+    ~/Library/Application Support/app.Name-Sense,
+    ~/Library/Caches/app.Name-Sense,
+    ~/Library/Containers/app.Name-Sense,
+    ~/Library/HTTPStorages/app.Name-Sense,
+    ~/Library/HTTPStorages/app.Name-Sense.binarycookies,
+    ~/Library/Preferences/app.Name-Sense.plist,
+    ~/Library/Saved Application State/app.Name-Sense.savedState
   ]
 end

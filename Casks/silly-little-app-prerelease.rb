@@ -19,10 +19,13 @@ cask "silly-little-app-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Silly-Little-App",
-    "~/Library/Containers/app.Silly-Little-App",
-    "~/Library/Preferences/app.Silly-Little-App.plist",
-    "~/Library/Application Scripts/app.Silly-Little-App",
-    "~/Library/Saved Application State/app.Silly-Little-App.savedState",
+    ~/Library/Application Scripts/app.Silly-Little-App,
+    ~/Library/Application Support/app.Silly-Little-App,
+    ~/Library/Caches/app.Silly-Little-App,
+    ~/Library/Containers/app.Silly-Little-App,
+    ~/Library/HTTPStorages/app.Silly-Little-App,
+    ~/Library/HTTPStorages/app.Silly-Little-App.binarycookies,
+    ~/Library/Preferences/app.Silly-Little-App.plist,
+    ~/Library/Saved Application State/app.Silly-Little-App.savedState
   ]
 end

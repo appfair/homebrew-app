@@ -19,10 +19,13 @@ cask "stanza-redux" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Stanza-Redux",
-    "~/Library/Containers/app.Stanza-Redux",
-    "~/Library/Preferences/app.Stanza-Redux.plist",
-    "~/Library/Application Scripts/app.Stanza-Redux",
-    "~/Library/Saved Application State/app.Stanza-Redux.savedState",
+    ~/Library/Application Scripts/app.Stanza-Redux,
+    ~/Library/Application Support/app.Stanza-Redux,
+    ~/Library/Caches/app.Stanza-Redux,
+    ~/Library/Containers/app.Stanza-Redux,
+    ~/Library/HTTPStorages/app.Stanza-Redux,
+    ~/Library/HTTPStorages/app.Stanza-Redux.binarycookies,
+    ~/Library/Preferences/app.Stanza-Redux.plist,
+    ~/Library/Saved Application State/app.Stanza-Redux.savedState
   ]
 end

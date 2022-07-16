@@ -19,10 +19,13 @@ cask "encyclopedia-galactica-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Encyclopedia-Galactica",
-    "~/Library/Containers/app.Encyclopedia-Galactica",
-    "~/Library/Preferences/app.Encyclopedia-Galactica.plist",
-    "~/Library/Application Scripts/app.Encyclopedia-Galactica",
-    "~/Library/Saved Application State/app.Encyclopedia-Galactica.savedState",
+    ~/Library/Application Scripts/app.Encyclopedia-Galactica,
+    ~/Library/Application Support/app.Encyclopedia-Galactica,
+    ~/Library/Caches/app.Encyclopedia-Galactica,
+    ~/Library/Containers/app.Encyclopedia-Galactica,
+    ~/Library/HTTPStorages/app.Encyclopedia-Galactica,
+    ~/Library/HTTPStorages/app.Encyclopedia-Galactica.binarycookies,
+    ~/Library/Preferences/app.Encyclopedia-Galactica.plist,
+    ~/Library/Saved Application State/app.Encyclopedia-Galactica.savedState
   ]
 end

@@ -19,10 +19,13 @@ cask "story-points-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Story-Points",
-    "~/Library/Containers/app.Story-Points",
-    "~/Library/Preferences/app.Story-Points.plist",
-    "~/Library/Application Scripts/app.Story-Points",
-    "~/Library/Saved Application State/app.Story-Points.savedState",
+    ~/Library/Application Scripts/app.Story-Points,
+    ~/Library/Application Support/app.Story-Points,
+    ~/Library/Caches/app.Story-Points,
+    ~/Library/Containers/app.Story-Points,
+    ~/Library/HTTPStorages/app.Story-Points,
+    ~/Library/HTTPStorages/app.Story-Points.binarycookies,
+    ~/Library/Preferences/app.Story-Points.plist,
+    ~/Library/Saved Application State/app.Story-Points.savedState
   ]
 end

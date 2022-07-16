@@ -19,10 +19,13 @@ cask "bon-mot-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Bon-Mot",
-    "~/Library/Containers/app.Bon-Mot",
-    "~/Library/Preferences/app.Bon-Mot.plist",
-    "~/Library/Application Scripts/app.Bon-Mot",
-    "~/Library/Saved Application State/app.Bon-Mot.savedState",
+    ~/Library/Application Scripts/app.Bon-Mot,
+    ~/Library/Application Support/app.Bon-Mot,
+    ~/Library/Caches/app.Bon-Mot,
+    ~/Library/Containers/app.Bon-Mot,
+    ~/Library/HTTPStorages/app.Bon-Mot,
+    ~/Library/HTTPStorages/app.Bon-Mot.binarycookies,
+    ~/Library/Preferences/app.Bon-Mot.plist,
+    ~/Library/Saved Application State/app.Bon-Mot.savedState
   ]
 end

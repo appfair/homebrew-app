@@ -19,10 +19,13 @@ cask "tidal-zone-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Tidal-Zone",
-    "~/Library/Containers/app.Tidal-Zone",
-    "~/Library/Preferences/app.Tidal-Zone.plist",
-    "~/Library/Application Scripts/app.Tidal-Zone",
-    "~/Library/Saved Application State/app.Tidal-Zone.savedState",
+    ~/Library/Application Scripts/app.Tidal-Zone,
+    ~/Library/Application Support/app.Tidal-Zone,
+    ~/Library/Caches/app.Tidal-Zone,
+    ~/Library/Containers/app.Tidal-Zone,
+    ~/Library/HTTPStorages/app.Tidal-Zone,
+    ~/Library/HTTPStorages/app.Tidal-Zone.binarycookies,
+    ~/Library/Preferences/app.Tidal-Zone.plist,
+    ~/Library/Saved Application State/app.Tidal-Zone.savedState
   ]
 end

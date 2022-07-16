@@ -19,10 +19,13 @@ cask "app-name-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.App-Name",
-    "~/Library/Containers/app.App-Name",
-    "~/Library/Preferences/app.App-Name.plist",
-    "~/Library/Application Scripts/app.App-Name",
-    "~/Library/Saved Application State/app.App-Name.savedState",
+    ~/Library/Application Scripts/app.App-Name,
+    ~/Library/Application Support/app.App-Name,
+    ~/Library/Caches/app.App-Name,
+    ~/Library/Containers/app.App-Name,
+    ~/Library/HTTPStorages/app.App-Name,
+    ~/Library/HTTPStorages/app.App-Name.binarycookies,
+    ~/Library/Preferences/app.App-Name.plist,
+    ~/Library/Saved Application State/app.App-Name.savedState
   ]
 end

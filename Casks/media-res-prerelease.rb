@@ -19,10 +19,13 @@ cask "media-res-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Media-Res",
-    "~/Library/Containers/app.Media-Res",
-    "~/Library/Preferences/app.Media-Res.plist",
-    "~/Library/Application Scripts/app.Media-Res",
-    "~/Library/Saved Application State/app.Media-Res.savedState",
+    ~/Library/Application Scripts/app.Media-Res,
+    ~/Library/Application Support/app.Media-Res,
+    ~/Library/Caches/app.Media-Res,
+    ~/Library/Containers/app.Media-Res,
+    ~/Library/HTTPStorages/app.Media-Res,
+    ~/Library/HTTPStorages/app.Media-Res.binarycookies,
+    ~/Library/Preferences/app.Media-Res.plist,
+    ~/Library/Saved Application State/app.Media-Res.savedState
   ]
 end

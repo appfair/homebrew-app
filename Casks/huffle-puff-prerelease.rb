@@ -19,10 +19,13 @@ cask "huffle-puff-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Huffle-Puff",
-    "~/Library/Containers/app.Huffle-Puff",
-    "~/Library/Preferences/app.Huffle-Puff.plist",
-    "~/Library/Application Scripts/app.Huffle-Puff",
-    "~/Library/Saved Application State/app.Huffle-Puff.savedState",
+    ~/Library/Application Scripts/app.Huffle-Puff,
+    ~/Library/Application Support/app.Huffle-Puff,
+    ~/Library/Caches/app.Huffle-Puff,
+    ~/Library/Containers/app.Huffle-Puff,
+    ~/Library/HTTPStorages/app.Huffle-Puff,
+    ~/Library/HTTPStorages/app.Huffle-Puff.binarycookies,
+    ~/Library/Preferences/app.Huffle-Puff.plist,
+    ~/Library/Saved Application State/app.Huffle-Puff.savedState
   ]
 end

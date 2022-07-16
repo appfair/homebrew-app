@@ -19,10 +19,13 @@ cask "down-town-prerelease" do
   end
 
   zap trash: [
-    "~/Library/Caches/app.Down-Town",
-    "~/Library/Containers/app.Down-Town",
-    "~/Library/Preferences/app.Down-Town.plist",
-    "~/Library/Application Scripts/app.Down-Town",
-    "~/Library/Saved Application State/app.Down-Town.savedState",
+    ~/Library/Application Scripts/app.Down-Town,
+    ~/Library/Application Support/app.Down-Town,
+    ~/Library/Caches/app.Down-Town,
+    ~/Library/Containers/app.Down-Town,
+    ~/Library/HTTPStorages/app.Down-Town,
+    ~/Library/HTTPStorages/app.Down-Town.binarycookies,
+    ~/Library/Preferences/app.Down-Town.plist,
+    ~/Library/Saved Application State/app.Down-Town.savedState
   ]
 end
