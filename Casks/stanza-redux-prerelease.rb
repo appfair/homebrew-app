@@ -1,6 +1,6 @@
 cask "stanza-redux-prerelease" do
-  version "0.3.46"
-  sha256 "0e9e002cb1573580684ff9df69730f6cf41b14f38477d1b6595ca9ca729ed40a"
+  version "0.3.47"
+  sha256 "bf06fdb7f8a34cb15a07564cac470294fa8256a70641bd2f9085bf7ebf5049f1"
 
   url "https://github.com/Stanza-Redux/App/releases/download/#{version}/Stanza-Redux-macOS.zip",
       verified: "github.com/Stanza-Redux/"
