@@ -1,6 +1,6 @@
 cask "cloud-cuckoo-prerelease" do
-  version "0.9.225"
-  sha256 "21b920609c738522d1273dda8f67d1e957cff3c0c26f478819598737c8502384"
+  version "0.9.226"
+  sha256 "a45bb8767d56455fdb0f6c206d88eb197a66cffa12ea7edf263fa1bb4ffc3024"
 
   url "https://github.com/Cloud-Cuckoo/App/releases/download/#{version}/Cloud-Cuckoo-macOS.zip",
       verified: "github.com/Cloud-Cuckoo/"
