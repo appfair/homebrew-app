@@ -1,6 +1,6 @@
-cask "encyclopedia-galactica-prerelease" do
-  version "0.0.32"
-  sha256 "628b345aa3bf7e9cc0dc778d9369aabc96219ad24ba8bc4ffc262a133a0d484a"
+cask "encyclopedia-galactica" do
+  version "0.1.3"
+  sha256 "72c3936677c204d83f1da5d3e6fedd2251bd64dc95bc000f77e2bc1b04cc0e73"
 
   url "https://github.com/Encyclopedia-Galactica/App/releases/download/#{version}/Encyclopedia-Galactica-macOS.zip",
       verified: "github.com/Encyclopedia-Galactica/"
@@ -12,7 +12,7 @@ cask "encyclopedia-galactica-prerelease" do
   
 
   app "Encyclopedia Galactica.app", target: "App Fair/Encyclopedia Galactica.app"
-  binary "#{appdir}/App Fair/Encyclopedia Galactica.app/Contents/MacOS/Encyclopedia Galactica", target: "encyclopedia-galactica-prerelease"
+  binary "#{appdir}/App Fair/Encyclopedia Galactica.app/Contents/MacOS/Encyclopedia Galactica", target: "encyclopedia-galactica"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Encyclopedia Galactica.app"
