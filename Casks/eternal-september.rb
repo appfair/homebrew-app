@@ -1,6 +1,6 @@
 cask "eternal-september" do
-  version "0.0.35"
-  sha256 "b7bff211ea457c67d65791a4f90d0c59fbe13bc35f57a22439019dc54ef74902"
+  version "0.0.45"
+  sha256 "0d99cc8205c2901f9e93e49c8dea66e9daa9ecc133eaf5bbf9f66f4f536845a4"
 
   url "https://github.com/Eternal-September/App/releases/download/#{version}/Eternal-September-macOS.zip",
       verified: "github.com/Eternal-September/"
