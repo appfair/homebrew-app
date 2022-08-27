@@ -1,4 +1,4 @@
-cask "sita-sings-the-blues-prerelease" do
+cask "sita-sings-the-blues" do
   version "0.0.51"
   sha256 "16e8b428aa4d98907bede98298c588323a325f41cc33329c37f828f09a1b0d2b"
 
@@ -12,7 +12,7 @@ cask "sita-sings-the-blues-prerelease" do
   
 
   app "Sita Sings the Blues.app", target: "App Fair/Sita Sings the Blues.app"
-  binary "#{appdir}/App Fair/Sita Sings the Blues.app/Contents/MacOS/Sita Sings the Blues", target: "sita-sings-the-blues-prerelease"
+  binary "#{appdir}/App Fair/Sita Sings the Blues.app/Contents/MacOS/Sita Sings the Blues", target: "sita-sings-the-blues"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Sita Sings the Blues.app"
