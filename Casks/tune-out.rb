@@ -1,6 +1,6 @@
 cask "tune-out" do
-  version "0.8.455"
-  sha256 "322f33645aa5ce576c4e757fe2dbe1914f3ec73e4c23f0932245113573eff4ec"
+  version "0.8.456"
+  sha256 "f6bb46473413ed9411e2e6f10fc37003e2081ce7dbfe32c96720043e72d35974"
 
   url "https://github.com/Tune-Out/App/releases/download/#{version}/Tune-Out-macOS.zip",
       verified: "github.com/Tune-Out/"
