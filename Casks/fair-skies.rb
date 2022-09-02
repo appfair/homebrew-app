@@ -1,6 +1,6 @@
-cask "fair-skies-prerelease" do
-  version "0.0.1"
-  sha256 "789c2a8a06c814c3212a38c6bf98dad2ed10de0ed42405db92a941f3cbeb3e91"
+cask "fair-skies" do
+  version "0.0.5"
+  sha256 "d8b76c8ee8380f0a28bdf3de6c6e812b22866f4a09e05d6e4b1071ebae1170e4"
 
   url "https://github.com/Fair-Skies/App/releases/download/#{version}/Fair-Skies-macOS.zip",
       verified: "github.com/Fair-Skies/"
@@ -12,7 +12,7 @@ cask "fair-skies-prerelease" do
   
 
   app "Fair Skies.app", target: "App Fair/Fair Skies.app"
-  binary "#{appdir}/App Fair/Fair Skies.app/Contents/MacOS/Fair Skies", target: "fair-skies-prerelease"
+  binary "#{appdir}/App Fair/Fair Skies.app/Contents/MacOS/Fair Skies", target: "fair-skies"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Fair Skies.app"
