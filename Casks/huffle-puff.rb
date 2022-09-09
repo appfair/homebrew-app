@@ -1,6 +1,6 @@
-cask "huffle-puff-prerelease" do
-  version "0.0.7"
-  sha256 "de70cbd5d9af1cd40a5a4fe6cb761f3f8186ff97adc6c94be14325d7784fb23b"
+cask "huffle-puff" do
+  version "0.0.10"
+  sha256 "e0d9377f5a4e63ee5ded33fc62f2fd9cbf64a98f68fe967efcc99333a8780b97"
 
   url "https://github.com/Huffle-Puff/App/releases/download/#{version}/Huffle-Puff-macOS.zip",
       verified: "github.com/Huffle-Puff/"
@@ -12,7 +12,7 @@ cask "huffle-puff-prerelease" do
   
 
   app "Huffle Puff.app", target: "App Fair/Huffle Puff.app"
-  binary "#{appdir}/App Fair/Huffle Puff.app/Contents/MacOS/Huffle Puff", target: "huffle-puff-prerelease"
+  binary "#{appdir}/App Fair/Huffle Puff.app/Contents/MacOS/Huffle Puff", target: "huffle-puff"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Huffle Puff.app"
