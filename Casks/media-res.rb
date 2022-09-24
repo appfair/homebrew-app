@@ -1,6 +1,6 @@
 cask "media-res" do
-  version "0.0.22"
-  sha256 "3b2525b88b098e63e84714a5080b1e249383c149b0cd1f2ec7f3610db484773c"
+  version "0.0.26"
+  sha256 "eaea51651d83c5baf112ab0428af9bc62a0ad71976a304bdbcbab1c4f281b880"
 
   url "https://github.com/Media-Res/App/releases/download/#{version}/Media-Res-macOS.zip",
       verified: "github.com/Media-Res/"
