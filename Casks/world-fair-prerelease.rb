@@ -1,6 +1,6 @@
 cask "world-fair-prerelease" do
   version "0.0.4"
-  sha256 "422a08861c4417e0f6d73f3aff7b0979bc72c81c24d6fa74461d6e81edea3716"
+  sha256 "b892c2f6af991f253653626633e81be61ac638e075c89fe781aacb4cbe0a28ac"
 
   url "https://github.com/World-Fair/App/releases/download/#{version}/World-Fair-macOS.zip",
       verified: "github.com/World-Fair/"
