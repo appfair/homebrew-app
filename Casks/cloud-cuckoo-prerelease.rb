@@ -19,13 +19,13 @@ cask "cloud-cuckoo-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Cloud-Cuckoo,
-    ~/Library/Application Support/app.Cloud-Cuckoo,
-    ~/Library/Caches/app.Cloud-Cuckoo,
-    ~/Library/Containers/app.Cloud-Cuckoo,
-    ~/Library/HTTPStorages/app.Cloud-Cuckoo,
-    ~/Library/HTTPStorages/app.Cloud-Cuckoo.binarycookies,
-    ~/Library/Preferences/app.Cloud-Cuckoo.plist,
-    ~/Library/Saved Application State/app.Cloud-Cuckoo.savedState
+    "~/Library/Application Scripts/app.Cloud-Cuckoo",
+    "~/Library/Application Support/app.Cloud-Cuckoo",
+    "~/Library/Caches/app.Cloud-Cuckoo",
+    "~/Library/Containers/app.Cloud-Cuckoo",
+    "~/Library/HTTPStorages/app.Cloud-Cuckoo",
+    "~/Library/HTTPStorages/app.Cloud-Cuckoo.binarycookies",
+    "~/Library/Preferences/app.Cloud-Cuckoo.plist",
+    "~/Library/Saved Application State/app.Cloud-Cuckoo.savedState"
   ]
 end

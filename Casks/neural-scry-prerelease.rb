@@ -19,13 +19,13 @@ cask "neural-scry-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Neural-Scry,
-    ~/Library/Application Support/app.Neural-Scry,
-    ~/Library/Caches/app.Neural-Scry,
-    ~/Library/Containers/app.Neural-Scry,
-    ~/Library/HTTPStorages/app.Neural-Scry,
-    ~/Library/HTTPStorages/app.Neural-Scry.binarycookies,
-    ~/Library/Preferences/app.Neural-Scry.plist,
-    ~/Library/Saved Application State/app.Neural-Scry.savedState
+    "~/Library/Application Scripts/app.Neural-Scry",
+    "~/Library/Application Support/app.Neural-Scry",
+    "~/Library/Caches/app.Neural-Scry",
+    "~/Library/Containers/app.Neural-Scry",
+    "~/Library/HTTPStorages/app.Neural-Scry",
+    "~/Library/HTTPStorages/app.Neural-Scry.binarycookies",
+    "~/Library/Preferences/app.Neural-Scry.plist",
+    "~/Library/Saved Application State/app.Neural-Scry.savedState"
   ]
 end

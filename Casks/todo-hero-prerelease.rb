@@ -19,13 +19,13 @@ cask "todo-hero-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Todo-Hero,
-    ~/Library/Application Support/app.Todo-Hero,
-    ~/Library/Caches/app.Todo-Hero,
-    ~/Library/Containers/app.Todo-Hero,
-    ~/Library/HTTPStorages/app.Todo-Hero,
-    ~/Library/HTTPStorages/app.Todo-Hero.binarycookies,
-    ~/Library/Preferences/app.Todo-Hero.plist,
-    ~/Library/Saved Application State/app.Todo-Hero.savedState
+    "~/Library/Application Scripts/app.Todo-Hero",
+    "~/Library/Application Support/app.Todo-Hero",
+    "~/Library/Caches/app.Todo-Hero",
+    "~/Library/Containers/app.Todo-Hero",
+    "~/Library/HTTPStorages/app.Todo-Hero",
+    "~/Library/HTTPStorages/app.Todo-Hero.binarycookies",
+    "~/Library/Preferences/app.Todo-Hero.plist",
+    "~/Library/Saved Application State/app.Todo-Hero.savedState"
   ]
 end

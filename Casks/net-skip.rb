@@ -19,13 +19,13 @@ cask "net-skip" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Net-Skip,
-    ~/Library/Application Support/app.Net-Skip,
-    ~/Library/Caches/app.Net-Skip,
-    ~/Library/Containers/app.Net-Skip,
-    ~/Library/HTTPStorages/app.Net-Skip,
-    ~/Library/HTTPStorages/app.Net-Skip.binarycookies,
-    ~/Library/Preferences/app.Net-Skip.plist,
-    ~/Library/Saved Application State/app.Net-Skip.savedState
+    "~/Library/Application Scripts/app.Net-Skip",
+    "~/Library/Application Support/app.Net-Skip",
+    "~/Library/Caches/app.Net-Skip",
+    "~/Library/Containers/app.Net-Skip",
+    "~/Library/HTTPStorages/app.Net-Skip",
+    "~/Library/HTTPStorages/app.Net-Skip.binarycookies",
+    "~/Library/Preferences/app.Net-Skip.plist",
+    "~/Library/Saved Application State/app.Net-Skip.savedState"
   ]
 end

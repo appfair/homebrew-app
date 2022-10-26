@@ -19,13 +19,13 @@ cask "sita-sings-the-blues" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Sita-Sings-the-Blues,
-    ~/Library/Application Support/app.Sita-Sings-the-Blues,
-    ~/Library/Caches/app.Sita-Sings-the-Blues,
-    ~/Library/Containers/app.Sita-Sings-the-Blues,
-    ~/Library/HTTPStorages/app.Sita-Sings-the-Blues,
-    ~/Library/HTTPStorages/app.Sita-Sings-the-Blues.binarycookies,
-    ~/Library/Preferences/app.Sita-Sings-the-Blues.plist,
-    ~/Library/Saved Application State/app.Sita-Sings-the-Blues.savedState
+    "~/Library/Application Scripts/app.Sita-Sings-the-Blues",
+    "~/Library/Application Support/app.Sita-Sings-the-Blues",
+    "~/Library/Caches/app.Sita-Sings-the-Blues",
+    "~/Library/Containers/app.Sita-Sings-the-Blues",
+    "~/Library/HTTPStorages/app.Sita-Sings-the-Blues",
+    "~/Library/HTTPStorages/app.Sita-Sings-the-Blues.binarycookies",
+    "~/Library/Preferences/app.Sita-Sings-the-Blues.plist",
+    "~/Library/Saved Application State/app.Sita-Sings-the-Blues.savedState"
   ]
 end

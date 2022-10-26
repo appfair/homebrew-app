@@ -19,13 +19,13 @@ cask "main-course" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Main-Course,
-    ~/Library/Application Support/app.Main-Course,
-    ~/Library/Caches/app.Main-Course,
-    ~/Library/Containers/app.Main-Course,
-    ~/Library/HTTPStorages/app.Main-Course,
-    ~/Library/HTTPStorages/app.Main-Course.binarycookies,
-    ~/Library/Preferences/app.Main-Course.plist,
-    ~/Library/Saved Application State/app.Main-Course.savedState
+    "~/Library/Application Scripts/app.Main-Course",
+    "~/Library/Application Support/app.Main-Course",
+    "~/Library/Caches/app.Main-Course",
+    "~/Library/Containers/app.Main-Course",
+    "~/Library/HTTPStorages/app.Main-Course",
+    "~/Library/HTTPStorages/app.Main-Course.binarycookies",
+    "~/Library/Preferences/app.Main-Course.plist",
+    "~/Library/Saved Application State/app.Main-Course.savedState"
   ]
 end

@@ -19,13 +19,13 @@ cask "world-fair" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.World-Fair,
-    ~/Library/Application Support/app.World-Fair,
-    ~/Library/Caches/app.World-Fair,
-    ~/Library/Containers/app.World-Fair,
-    ~/Library/HTTPStorages/app.World-Fair,
-    ~/Library/HTTPStorages/app.World-Fair.binarycookies,
-    ~/Library/Preferences/app.World-Fair.plist,
-    ~/Library/Saved Application State/app.World-Fair.savedState
+    "~/Library/Application Scripts/app.World-Fair",
+    "~/Library/Application Support/app.World-Fair",
+    "~/Library/Caches/app.World-Fair",
+    "~/Library/Containers/app.World-Fair",
+    "~/Library/HTTPStorages/app.World-Fair",
+    "~/Library/HTTPStorages/app.World-Fair.binarycookies",
+    "~/Library/Preferences/app.World-Fair.plist",
+    "~/Library/Saved Application State/app.World-Fair.savedState"
   ]
 end

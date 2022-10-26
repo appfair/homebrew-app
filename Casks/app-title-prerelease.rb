@@ -19,13 +19,13 @@ cask "app-title-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.App-Title,
-    ~/Library/Application Support/app.App-Title,
-    ~/Library/Caches/app.App-Title,
-    ~/Library/Containers/app.App-Title,
-    ~/Library/HTTPStorages/app.App-Title,
-    ~/Library/HTTPStorages/app.App-Title.binarycookies,
-    ~/Library/Preferences/app.App-Title.plist,
-    ~/Library/Saved Application State/app.App-Title.savedState
+    "~/Library/Application Scripts/app.App-Title",
+    "~/Library/Application Support/app.App-Title",
+    "~/Library/Caches/app.App-Title",
+    "~/Library/Containers/app.App-Title",
+    "~/Library/HTTPStorages/app.App-Title",
+    "~/Library/HTTPStorages/app.App-Title.binarycookies",
+    "~/Library/Preferences/app.App-Title.plist",
+    "~/Library/Saved Application State/app.App-Title.savedState"
   ]
 end

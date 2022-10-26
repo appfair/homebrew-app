@@ -19,13 +19,13 @@ cask "eternal-september" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Eternal-September,
-    ~/Library/Application Support/app.Eternal-September,
-    ~/Library/Caches/app.Eternal-September,
-    ~/Library/Containers/app.Eternal-September,
-    ~/Library/HTTPStorages/app.Eternal-September,
-    ~/Library/HTTPStorages/app.Eternal-September.binarycookies,
-    ~/Library/Preferences/app.Eternal-September.plist,
-    ~/Library/Saved Application State/app.Eternal-September.savedState
+    "~/Library/Application Scripts/app.Eternal-September",
+    "~/Library/Application Support/app.Eternal-September",
+    "~/Library/Caches/app.Eternal-September",
+    "~/Library/Containers/app.Eternal-September",
+    "~/Library/HTTPStorages/app.Eternal-September",
+    "~/Library/HTTPStorages/app.Eternal-September.binarycookies",
+    "~/Library/Preferences/app.Eternal-September.plist",
+    "~/Library/Saved Application State/app.Eternal-September.savedState"
   ]
 end

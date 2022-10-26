@@ -19,13 +19,13 @@ cask "sql-hero" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.SQL-Hero,
-    ~/Library/Application Support/app.SQL-Hero,
-    ~/Library/Caches/app.SQL-Hero,
-    ~/Library/Containers/app.SQL-Hero,
-    ~/Library/HTTPStorages/app.SQL-Hero,
-    ~/Library/HTTPStorages/app.SQL-Hero.binarycookies,
-    ~/Library/Preferences/app.SQL-Hero.plist,
-    ~/Library/Saved Application State/app.SQL-Hero.savedState
+    "~/Library/Application Scripts/app.SQL-Hero",
+    "~/Library/Application Support/app.SQL-Hero",
+    "~/Library/Caches/app.SQL-Hero",
+    "~/Library/Containers/app.SQL-Hero",
+    "~/Library/HTTPStorages/app.SQL-Hero",
+    "~/Library/HTTPStorages/app.SQL-Hero.binarycookies",
+    "~/Library/Preferences/app.SQL-Hero.plist",
+    "~/Library/Saved Application State/app.SQL-Hero.savedState"
   ]
 end

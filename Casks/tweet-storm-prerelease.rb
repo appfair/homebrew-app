@@ -19,13 +19,13 @@ cask "tweet-storm-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Tweet-Storm,
-    ~/Library/Application Support/app.Tweet-Storm,
-    ~/Library/Caches/app.Tweet-Storm,
-    ~/Library/Containers/app.Tweet-Storm,
-    ~/Library/HTTPStorages/app.Tweet-Storm,
-    ~/Library/HTTPStorages/app.Tweet-Storm.binarycookies,
-    ~/Library/Preferences/app.Tweet-Storm.plist,
-    ~/Library/Saved Application State/app.Tweet-Storm.savedState
+    "~/Library/Application Scripts/app.Tweet-Storm",
+    "~/Library/Application Support/app.Tweet-Storm",
+    "~/Library/Caches/app.Tweet-Storm",
+    "~/Library/Containers/app.Tweet-Storm",
+    "~/Library/HTTPStorages/app.Tweet-Storm",
+    "~/Library/HTTPStorages/app.Tweet-Storm.binarycookies",
+    "~/Library/Preferences/app.Tweet-Storm.plist",
+    "~/Library/Saved Application State/app.Tweet-Storm.savedState"
   ]
 end

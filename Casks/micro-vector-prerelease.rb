@@ -19,13 +19,13 @@ cask "micro-vector-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Micro-Vector,
-    ~/Library/Application Support/app.Micro-Vector,
-    ~/Library/Caches/app.Micro-Vector,
-    ~/Library/Containers/app.Micro-Vector,
-    ~/Library/HTTPStorages/app.Micro-Vector,
-    ~/Library/HTTPStorages/app.Micro-Vector.binarycookies,
-    ~/Library/Preferences/app.Micro-Vector.plist,
-    ~/Library/Saved Application State/app.Micro-Vector.savedState
+    "~/Library/Application Scripts/app.Micro-Vector",
+    "~/Library/Application Support/app.Micro-Vector",
+    "~/Library/Caches/app.Micro-Vector",
+    "~/Library/Containers/app.Micro-Vector",
+    "~/Library/HTTPStorages/app.Micro-Vector",
+    "~/Library/HTTPStorages/app.Micro-Vector.binarycookies",
+    "~/Library/Preferences/app.Micro-Vector.plist",
+    "~/Library/Saved Application State/app.Micro-Vector.savedState"
   ]
 end

@@ -19,13 +19,13 @@ cask "fair-skies" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Fair-Skies,
-    ~/Library/Application Support/app.Fair-Skies,
-    ~/Library/Caches/app.Fair-Skies,
-    ~/Library/Containers/app.Fair-Skies,
-    ~/Library/HTTPStorages/app.Fair-Skies,
-    ~/Library/HTTPStorages/app.Fair-Skies.binarycookies,
-    ~/Library/Preferences/app.Fair-Skies.plist,
-    ~/Library/Saved Application State/app.Fair-Skies.savedState
+    "~/Library/Application Scripts/app.Fair-Skies",
+    "~/Library/Application Support/app.Fair-Skies",
+    "~/Library/Caches/app.Fair-Skies",
+    "~/Library/Containers/app.Fair-Skies",
+    "~/Library/HTTPStorages/app.Fair-Skies",
+    "~/Library/HTTPStorages/app.Fair-Skies.binarycookies",
+    "~/Library/Preferences/app.Fair-Skies.plist",
+    "~/Library/Saved Application State/app.Fair-Skies.savedState"
   ]
 end

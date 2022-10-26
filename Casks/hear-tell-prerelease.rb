@@ -19,13 +19,13 @@ cask "hear-tell-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Hear-Tell,
-    ~/Library/Application Support/app.Hear-Tell,
-    ~/Library/Caches/app.Hear-Tell,
-    ~/Library/Containers/app.Hear-Tell,
-    ~/Library/HTTPStorages/app.Hear-Tell,
-    ~/Library/HTTPStorages/app.Hear-Tell.binarycookies,
-    ~/Library/Preferences/app.Hear-Tell.plist,
-    ~/Library/Saved Application State/app.Hear-Tell.savedState
+    "~/Library/Application Scripts/app.Hear-Tell",
+    "~/Library/Application Support/app.Hear-Tell",
+    "~/Library/Caches/app.Hear-Tell",
+    "~/Library/Containers/app.Hear-Tell",
+    "~/Library/HTTPStorages/app.Hear-Tell",
+    "~/Library/HTTPStorages/app.Hear-Tell.binarycookies",
+    "~/Library/Preferences/app.Hear-Tell.plist",
+    "~/Library/Saved Application State/app.Hear-Tell.savedState"
   ]
 end

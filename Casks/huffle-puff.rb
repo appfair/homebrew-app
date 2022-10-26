@@ -19,13 +19,13 @@ cask "huffle-puff" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Huffle-Puff,
-    ~/Library/Application Support/app.Huffle-Puff,
-    ~/Library/Caches/app.Huffle-Puff,
-    ~/Library/Containers/app.Huffle-Puff,
-    ~/Library/HTTPStorages/app.Huffle-Puff,
-    ~/Library/HTTPStorages/app.Huffle-Puff.binarycookies,
-    ~/Library/Preferences/app.Huffle-Puff.plist,
-    ~/Library/Saved Application State/app.Huffle-Puff.savedState
+    "~/Library/Application Scripts/app.Huffle-Puff",
+    "~/Library/Application Support/app.Huffle-Puff",
+    "~/Library/Caches/app.Huffle-Puff",
+    "~/Library/Containers/app.Huffle-Puff",
+    "~/Library/HTTPStorages/app.Huffle-Puff",
+    "~/Library/HTTPStorages/app.Huffle-Puff.binarycookies",
+    "~/Library/Preferences/app.Huffle-Puff.plist",
+    "~/Library/Saved Application State/app.Huffle-Puff.savedState"
   ]
 end

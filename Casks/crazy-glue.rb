@@ -19,13 +19,13 @@ cask "crazy-glue" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Crazy-Glue,
-    ~/Library/Application Support/app.Crazy-Glue,
-    ~/Library/Caches/app.Crazy-Glue,
-    ~/Library/Containers/app.Crazy-Glue,
-    ~/Library/HTTPStorages/app.Crazy-Glue,
-    ~/Library/HTTPStorages/app.Crazy-Glue.binarycookies,
-    ~/Library/Preferences/app.Crazy-Glue.plist,
-    ~/Library/Saved Application State/app.Crazy-Glue.savedState
+    "~/Library/Application Scripts/app.Crazy-Glue",
+    "~/Library/Application Support/app.Crazy-Glue",
+    "~/Library/Caches/app.Crazy-Glue",
+    "~/Library/Containers/app.Crazy-Glue",
+    "~/Library/HTTPStorages/app.Crazy-Glue",
+    "~/Library/HTTPStorages/app.Crazy-Glue.binarycookies",
+    "~/Library/Preferences/app.Crazy-Glue.plist",
+    "~/Library/Saved Application State/app.Crazy-Glue.savedState"
   ]
 end

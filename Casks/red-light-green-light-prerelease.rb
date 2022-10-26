@@ -19,13 +19,13 @@ cask "red-light-green-light-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Red-Light-Green-Light,
-    ~/Library/Application Support/app.Red-Light-Green-Light,
-    ~/Library/Caches/app.Red-Light-Green-Light,
-    ~/Library/Containers/app.Red-Light-Green-Light,
-    ~/Library/HTTPStorages/app.Red-Light-Green-Light,
-    ~/Library/HTTPStorages/app.Red-Light-Green-Light.binarycookies,
-    ~/Library/Preferences/app.Red-Light-Green-Light.plist,
-    ~/Library/Saved Application State/app.Red-Light-Green-Light.savedState
+    "~/Library/Application Scripts/app.Red-Light-Green-Light",
+    "~/Library/Application Support/app.Red-Light-Green-Light",
+    "~/Library/Caches/app.Red-Light-Green-Light",
+    "~/Library/Containers/app.Red-Light-Green-Light",
+    "~/Library/HTTPStorages/app.Red-Light-Green-Light",
+    "~/Library/HTTPStorages/app.Red-Light-Green-Light.binarycookies",
+    "~/Library/Preferences/app.Red-Light-Green-Light.plist",
+    "~/Library/Saved Application State/app.Red-Light-Green-Light.savedState"
   ]
 end

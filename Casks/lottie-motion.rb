@@ -19,13 +19,13 @@ cask "lottie-motion" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Lottie-Motion,
-    ~/Library/Application Support/app.Lottie-Motion,
-    ~/Library/Caches/app.Lottie-Motion,
-    ~/Library/Containers/app.Lottie-Motion,
-    ~/Library/HTTPStorages/app.Lottie-Motion,
-    ~/Library/HTTPStorages/app.Lottie-Motion.binarycookies,
-    ~/Library/Preferences/app.Lottie-Motion.plist,
-    ~/Library/Saved Application State/app.Lottie-Motion.savedState
+    "~/Library/Application Scripts/app.Lottie-Motion",
+    "~/Library/Application Support/app.Lottie-Motion",
+    "~/Library/Caches/app.Lottie-Motion",
+    "~/Library/Containers/app.Lottie-Motion",
+    "~/Library/HTTPStorages/app.Lottie-Motion",
+    "~/Library/HTTPStorages/app.Lottie-Motion.binarycookies",
+    "~/Library/Preferences/app.Lottie-Motion.plist",
+    "~/Library/Saved Application State/app.Lottie-Motion.savedState"
   ]
 end

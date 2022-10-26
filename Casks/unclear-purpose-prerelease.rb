@@ -19,13 +19,13 @@ cask "unclear-purpose-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Unclear-Purpose,
-    ~/Library/Application Support/app.Unclear-Purpose,
-    ~/Library/Caches/app.Unclear-Purpose,
-    ~/Library/Containers/app.Unclear-Purpose,
-    ~/Library/HTTPStorages/app.Unclear-Purpose,
-    ~/Library/HTTPStorages/app.Unclear-Purpose.binarycookies,
-    ~/Library/Preferences/app.Unclear-Purpose.plist,
-    ~/Library/Saved Application State/app.Unclear-Purpose.savedState
+    "~/Library/Application Scripts/app.Unclear-Purpose",
+    "~/Library/Application Support/app.Unclear-Purpose",
+    "~/Library/Caches/app.Unclear-Purpose",
+    "~/Library/Containers/app.Unclear-Purpose",
+    "~/Library/HTTPStorages/app.Unclear-Purpose",
+    "~/Library/HTTPStorages/app.Unclear-Purpose.binarycookies",
+    "~/Library/Preferences/app.Unclear-Purpose.plist",
+    "~/Library/Saved Application State/app.Unclear-Purpose.savedState"
   ]
 end

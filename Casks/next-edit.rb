@@ -19,13 +19,13 @@ cask "next-edit" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Next-Edit,
-    ~/Library/Application Support/app.Next-Edit,
-    ~/Library/Caches/app.Next-Edit,
-    ~/Library/Containers/app.Next-Edit,
-    ~/Library/HTTPStorages/app.Next-Edit,
-    ~/Library/HTTPStorages/app.Next-Edit.binarycookies,
-    ~/Library/Preferences/app.Next-Edit.plist,
-    ~/Library/Saved Application State/app.Next-Edit.savedState
+    "~/Library/Application Scripts/app.Next-Edit",
+    "~/Library/Application Support/app.Next-Edit",
+    "~/Library/Caches/app.Next-Edit",
+    "~/Library/Containers/app.Next-Edit",
+    "~/Library/HTTPStorages/app.Next-Edit",
+    "~/Library/HTTPStorages/app.Next-Edit.binarycookies",
+    "~/Library/Preferences/app.Next-Edit.plist",
+    "~/Library/Saved Application State/app.Next-Edit.savedState"
   ]
 end

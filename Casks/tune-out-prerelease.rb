@@ -19,13 +19,13 @@ cask "tune-out-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Tune-Out,
-    ~/Library/Application Support/app.Tune-Out,
-    ~/Library/Caches/app.Tune-Out,
-    ~/Library/Containers/app.Tune-Out,
-    ~/Library/HTTPStorages/app.Tune-Out,
-    ~/Library/HTTPStorages/app.Tune-Out.binarycookies,
-    ~/Library/Preferences/app.Tune-Out.plist,
-    ~/Library/Saved Application State/app.Tune-Out.savedState
+    "~/Library/Application Scripts/app.Tune-Out",
+    "~/Library/Application Support/app.Tune-Out",
+    "~/Library/Caches/app.Tune-Out",
+    "~/Library/Containers/app.Tune-Out",
+    "~/Library/HTTPStorages/app.Tune-Out",
+    "~/Library/HTTPStorages/app.Tune-Out.binarycookies",
+    "~/Library/Preferences/app.Tune-Out.plist",
+    "~/Library/Saved Application State/app.Tune-Out.savedState"
   ]
 end

@@ -19,13 +19,13 @@ cask "pan-opticon-prerelease" do
   end
 
   zap trash: [
-    ~/Library/Application Scripts/app.Pan-Opticon,
-    ~/Library/Application Support/app.Pan-Opticon,
-    ~/Library/Caches/app.Pan-Opticon,
-    ~/Library/Containers/app.Pan-Opticon,
-    ~/Library/HTTPStorages/app.Pan-Opticon,
-    ~/Library/HTTPStorages/app.Pan-Opticon.binarycookies,
-    ~/Library/Preferences/app.Pan-Opticon.plist,
-    ~/Library/Saved Application State/app.Pan-Opticon.savedState
+    "~/Library/Application Scripts/app.Pan-Opticon",
+    "~/Library/Application Support/app.Pan-Opticon",
+    "~/Library/Caches/app.Pan-Opticon",
+    "~/Library/Containers/app.Pan-Opticon",
+    "~/Library/HTTPStorages/app.Pan-Opticon",
+    "~/Library/HTTPStorages/app.Pan-Opticon.binarycookies",
+    "~/Library/Preferences/app.Pan-Opticon.plist",
+    "~/Library/Saved Application State/app.Pan-Opticon.savedState"
   ]
 end
