@@ -1,11 +1,11 @@
 cask "app-fair" do
-  version "0.8.79"
-  sha256 "53c5100a5709447a6a85de6c1ae8f9a7062af82ee0397471e5838f2f51a9bffa"
+  version "0.8.131"
+  sha256 "f5abeefc645e12b02dbe083a6eaaa50f6148427865376867123178cb46461e8b"
 
   url "https://github.com/App-Fair/App/releases/download/#{version}/App-Fair-macOS.zip",
       verified: "github.com/App-Fair/"
   name "App Fair"
-  desc "Open-source browser and installer for macOS apps and Homebrew casks"
+  desc "Open-source browser and installer for Homebrew casks and macOS/iOS apps"
   homepage "https://github.com/App-Fair/App/"
 
   depends_on macos: ">= :monterey"

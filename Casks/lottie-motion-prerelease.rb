@@ -1,6 +1,6 @@
-cask "lottie-motion" do
-  version "0.0.96"
-  sha256 "c8fb706b98fa0e9ced4ee92d9397df6a9971f7b9232bbb6b04b6566c9d8f6c9c"
+cask "lottie-motion-prerelease" do
+  version "0.0.97"
+  sha256 "a7fc1cb1e2d4cfa1e20dd77b2260627d207f2472b35c0ef6979a5ea2f4723eea"
 
   url "https://github.com/Lottie-Motion/App/releases/download/#{version}/Lottie-Motion-macOS.zip",
       verified: "github.com/Lottie-Motion/"
@@ -12,7 +12,7 @@ cask "lottie-motion" do
   
 
   app "Lottie Motion.app", target: "App Fair/Lottie Motion.app"
-  binary "#{appdir}/App Fair/Lottie Motion.app/Contents/MacOS/Lottie Motion", target: "lottie-motion"
+  binary "#{appdir}/App Fair/Lottie Motion.app/Contents/MacOS/Lottie Motion", target: "lottie-motion-prerelease"
 
   postflight do
     system "xattr", "-r", "-d", "com.apple.quarantine", "#{appdir}/App Fair/Lottie Motion.app"
