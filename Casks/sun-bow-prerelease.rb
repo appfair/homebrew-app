@@ -1,6 +1,6 @@
 cask "sun-bow-prerelease" do
   version "0.0.28"
-  sha256 "a6ed57eb5674b99b47308b1ee88d2926cb5cb958c66f1029d212c2597f30c092"
+  sha256 "b82e985a38e877215eea24d7d0e7f6b59358850fe25cd480ec6a1c328895c96c"
 
   url "https://github.com/Sun-Bow/App/releases/download/#{version}/Sun-Bow-macOS.zip",
       verified: "github.com/Sun-Bow/"
